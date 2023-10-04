@@ -1,0 +1,1351 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51736
+Successfully changed project path to: C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
+C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22884] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 916778337 [EditorId] 916778337 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22884] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 916778337 [EditorId] 916778337 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005016 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 64.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.471 seconds
+Domain Reload Profiling:
+	ReloadAssembly (471ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (328ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (73ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004755 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\Documents\GitHub\Amusement-Park-Maker\Amusement Park Maker\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\Documents\GitHub\Amusement-Park-Maker\Amusement Park Maker\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.3 KB). Loaded Objects now: 3506.
+Memory consumption went from 107.8 MB to 107.7 MB.
+Total: 2.651100 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.090500 ms MarkObjects: 2.302900 ms  DeleteObjects: 0.082200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003957 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\Documents\GitHub\Amusement-Park-Maker\Amusement Park Maker\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\Documents\GitHub\Amusement-Park-Maker\Amusement Park Maker\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (194ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3041 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3509.
+Memory consumption went from 107.7 MB to 107.6 MB.
+Total: 2.554600 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.058900 ms MarkObjects: 2.237500 ms  DeleteObjects: 0.070400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14145.682930 seconds.
+  path: Assets/Low Poly Luna Park/Textures/Color Palette.png
+  artifactKey: Guid(e35e35870ff95ec4796ca241a4056711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Textures/Color Palette.png using Guid(e35e35870ff95ec4796ca241a4056711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a919f4bf96d0bc4ed7dcf45866234895') in 0.071126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Textures/Wood Floor Texture.png
+  artifactKey: Guid(ee1efe4cb15e9f443bca9269c1395dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Textures/Wood Floor Texture.png using Guid(ee1efe4cb15e9f443bca9269c1395dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81eb104110181fe35916d07eb07c073') in 0.022098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.220897 seconds.
+  path: Assets/Low Poly Luna Park/Materials/Board Texture.mat
+  artifactKey: Guid(6da2e41c49a22cc40bd7096bb881898e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Materials/Board Texture.mat using Guid(6da2e41c49a22cc40bd7096bb881898e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e65f21b4343e7a1ee9ba87e447f845') in 0.188049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Materials/Floor Asphalt.mat
+  artifactKey: Guid(fbdfe76861e763c4d800dd256380e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Materials/Floor Asphalt.mat using Guid(fbdfe76861e763c4d800dd256380e772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bd8cbb3f60ea9419240b735fd074bc') in 0.011349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Low Poly Luna Park/Materials/Park Texture.mat
+  artifactKey: Guid(b5a827601fd5813468ca5b00a582ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Materials/Park Texture.mat using Guid(b5a827601fd5813468ca5b00a582ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64eb555a5d39d2d929d5e925c2c3cb74') in 0.076082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Materials/Floor Wood Red.mat
+  artifactKey: Guid(7dc0b806bcc84c841ba630c40db5bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Materials/Floor Wood Red.mat using Guid(7dc0b806bcc84c841ba630c40db5bde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eff72cca1cc9aae3bbc198f92c87c87') in 0.011294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Materials/Floor Wood.mat
+  artifactKey: Guid(cc97fc94ef7dbdb4f9dc55bb739e18c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Materials/Floor Wood.mat using Guid(cc97fc94ef7dbdb4f9dc55bb739e18c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de57c70e804ff66a2a27c096cacd00a') in 0.010320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.651015 seconds.
+  path: Assets/Low Poly Luna Park/Models/ATM.fbx
+  artifactKey: Guid(d58452d09c1bcf246bec53680eebc6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/ATM.fbx using Guid(d58452d09c1bcf246bec53680eebc6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff482c9cd827edece972e9220e9cc3b') in 0.048881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Ferris Wheel .fbx
+  artifactKey: Guid(f5c41acaee901ad4581852305a3b2cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Ferris Wheel .fbx using Guid(f5c41acaee901ad4581852305a3b2cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900b75206df18d9249cb9fa8f7c7a18f') in 0.021848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon Bear Big  Orange.fbx
+  artifactKey: Guid(820fe2778a6212344aa65d0acec46b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon Bear Big  Orange.fbx using Guid(820fe2778a6212344aa65d0acec46b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da888fe4aad02d9ffaeb8ba13b2db5de') in 0.013805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon White.fbx
+  artifactKey: Guid(caee0674fd2e960419d50a67c4aebf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon White.fbx using Guid(caee0674fd2e960419d50a67c4aebf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc23695155392e66fedebb2f6224edc') in 0.013260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Board Green.fbx
+  artifactKey: Guid(7a007fc9b02e71847bb1cabac52d5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Board Green.fbx using Guid(7a007fc9b02e71847bb1cabac52d5285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e860ce7f33f3d49514770c16fb7e9a26') in 0.017230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon Bear Big  Red.fbx
+  artifactKey: Guid(7fc79b537d615664d8f91467a4b823fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon Bear Big  Red.fbx using Guid(7fc79b537d615664d8f91467a4b823fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b597f743254dddd02c5d692f8df4e79') in 0.012523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003697 seconds.
+  path: Assets/Low Poly Luna Park/Models/Cup With Cover.fbx
+  artifactKey: Guid(a462463804618ae45a9da97adabb02ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Cup With Cover.fbx using Guid(a462463804618ae45a9da97adabb02ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef98c9129c1fed777fa7e9725f70f0c') in 0.014528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon Long Green.fbx
+  artifactKey: Guid(204d14ff68bd96f48b3dbca101bcee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon Long Green.fbx using Guid(204d14ff68bd96f48b3dbca101bcee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf31ab84c1233a146bc000a540bfaa0b') in 0.013510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon  Bear Head Red.fbx
+  artifactKey: Guid(7b664045efa3d994db0d1541a2c10468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon  Bear Head Red.fbx using Guid(7b664045efa3d994db0d1541a2c10468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3924cfb0c64673bb8f659f5a032b3b6') in 0.013058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Cup Cover.fbx
+  artifactKey: Guid(d83c5d56c6acfa347ad0ad1140137727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Cup Cover.fbx using Guid(d83c5d56c6acfa347ad0ad1140137727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f068e18ce14fcaaebd88342fb2368e9b') in 0.013568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon Green.fbx
+  artifactKey: Guid(5bba6f201bbf46442b0f49573c329684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon Green.fbx using Guid(5bba6f201bbf46442b0f49573c329684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64bac42878c08a37637d9257b4a0429') in 0.013711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Board Beige.fbx
+  artifactKey: Guid(0438e311ea664d142be76d23f60bd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Board Beige.fbx using Guid(0438e311ea664d142be76d23f60bd7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a779ce23512dc87b68b77a01f2b19a70') in 0.017457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Luna Park/Models/Box A.fbx
+  artifactKey: Guid(843da4d99e931524e9bcb9aeaf42d5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Box A.fbx using Guid(843da4d99e931524e9bcb9aeaf42d5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5529b09c96f8ce8f4795a77aa506de0') in 0.013726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Fire Extinguisher.fbx
+  artifactKey: Guid(cb5c2b200d872f643b46d18543df2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Fire Extinguisher.fbx using Guid(cb5c2b200d872f643b46d18543df2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc99dc2cd65f16362c51f69fa845dcf') in 0.014184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Low Poly Luna Park/Models/Figure.fbx
+  artifactKey: Guid(ed15ba334b9617542b922dcc85ffbf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Figure.fbx using Guid(ed15ba334b9617542b922dcc85ffbf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396985e48b3267301988a8d0c0f2cf4a') in 0.015411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon Yellow.fbx
+  artifactKey: Guid(93e7e393e26cd774f8441f97a94a53d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon Yellow.fbx using Guid(93e7e393e26cd774f8441f97a94a53d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007df3f534c585f27bb327a78f370e6d') in 0.014772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Luna Park/Models/Drink B.fbx
+  artifactKey: Guid(1136b1f0b78fef1438229271c9833e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Drink B.fbx using Guid(1136b1f0b78fef1438229271c9833e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06bc14802de131eddf99cb1ae7f72b7') in 0.021195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Ferris Wheel Cabine Blue.fbx
+  artifactKey: Guid(1957c9afcc23d9642b0cfa7fa503358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Ferris Wheel Cabine Blue.fbx using Guid(1957c9afcc23d9642b0cfa7fa503358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fc85989b6056ce8637e92c170abf54') in 0.018808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Fish Toy Red.fbx
+  artifactKey: Guid(0f707494ecfb27a4695958bd6ebcf20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Fish Toy Red.fbx using Guid(0f707494ecfb27a4695958bd6ebcf20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f338bdfc6ed6f3abdda36401f0c9312') in 0.013498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Box C.fbx
+  artifactKey: Guid(262e835c3ebd8954db09cfa15f9be3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Box C.fbx using Guid(262e835c3ebd8954db09cfa15f9be3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3fb602accfad7a1b4b928e2399e2db') in 0.013602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Luna Park/Models/Carousel.fbx
+  artifactKey: Guid(7bc09a05cfd221c4b8b074655419ac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Carousel.fbx using Guid(7bc09a05cfd221c4b8b074655419ac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8397b73b186e9f77a90472ded171120') in 0.065708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon Blue.fbx
+  artifactKey: Guid(d943dc16c1ae5fe4191819afe31d8253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon Blue.fbx using Guid(d943dc16c1ae5fe4191819afe31d8253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea7bcd105e8e84c39412ec141b0a983') in 0.013810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Cup Without Cover.fbx
+  artifactKey: Guid(4e451f62259d156468e7d491d644af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Cup Without Cover.fbx using Guid(4e451f62259d156468e7d491d644af39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9a084b6f77e84fecbdf8b3f9525a17') in 0.014923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Cotton Candy A.fbx
+  artifactKey: Guid(9da154eaa60aebd4d9a743f26507c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Cotton Candy A.fbx using Guid(9da154eaa60aebd4d9a743f26507c75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4193ea5ba546e974f71f8d9bd68b7df5') in 0.014765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Board Blue.fbx
+  artifactKey: Guid(18540b77c90bb8f40bf0d75d54d66281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Board Blue.fbx using Guid(18540b77c90bb8f40bf0d75d54d66281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17085e5fec034b6908fc3bb5bfd16017') in 0.017273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Beer Machine.fbx
+  artifactKey: Guid(671bb82e10c5fa54ab1be9b5adcb31f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Beer Machine.fbx using Guid(671bb82e10c5fa54ab1be9b5adcb31f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6ca21369ca763e6a53f7b6d0910c57') in 0.033801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Ferris Wheel Cabine Yellow.fbx
+  artifactKey: Guid(0bce5809784eb5f449bd20914b0f683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Ferris Wheel Cabine Yellow.fbx using Guid(0bce5809784eb5f449bd20914b0f683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7207a3699a5f524ab09f01a3487f3ea') in 0.018344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Low Poly Luna Park/Models/Baloon  Bear Head Violet.fbx
+  artifactKey: Guid(b37f6667f57e69144b19865e091eb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Baloon  Bear Head Violet.fbx using Guid(b37f6667f57e69144b19865e091eb92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a820329c90f8db5c1466405d6b0bee82') in 0.013781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Fish Toy Green.fbx
+  artifactKey: Guid(1614ad50c239c5042bc3bae8c35ef5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Fish Toy Green.fbx using Guid(1614ad50c239c5042bc3bae8c35ef5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b685372220f6e1ba873e78839636541') in 0.014107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Low Poly Luna Park/Models/Cotton Candy Mashine.fbx
+  artifactKey: Guid(a78f685bad836304ea57fa555a7cc1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Cotton Candy Mashine.fbx using Guid(a78f685bad836304ea57fa555a7cc1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc978d9f7606f788c763a6d5d8a15e1') in 0.023486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060159 seconds.
+  path: Assets/Low Poly Luna Park/Models/Fishin House Shelf.fbx
+  artifactKey: Guid(44ab6e06bb68eee4ca13c31951d67ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Fishin House Shelf.fbx using Guid(44ab6e06bb68eee4ca13c31951d67ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23fedc1da103c974d6df6ef0fcec2e67') in 0.014761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Flagpole.fbx
+  artifactKey: Guid(61523812794621642b53a1cb552c9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Flagpole.fbx using Guid(61523812794621642b53a1cb552c9857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05ce84bebd654cdaaa885d23eda9c32') in 0.013891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Flag D.fbx
+  artifactKey: Guid(c2dc79184d113d341aaf0fc490c2b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Flag D.fbx using Guid(c2dc79184d113d341aaf0fc490c2b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc8c2ad57a9a17b6c1b9ac4df1c69e8') in 0.013396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Foodtruck  Locker.fbx
+  artifactKey: Guid(e9c89a042c004894fb61504a5d6db12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Foodtruck  Locker.fbx using Guid(e9c89a042c004894fb61504a5d6db12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d54fd97fe62e5da25b29d14a90e9e8') in 0.024930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Houses Yellow.fbx
+  artifactKey: Guid(6dcf2b07ca37257449eabccb1c1699a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Houses Yellow.fbx using Guid(6dcf2b07ca37257449eabccb1c1699a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57ab78241c518f20fe940c10dd282c5') in 0.017598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Houses Stand Yellow.fbx
+  artifactKey: Guid(2119e748c6946d94795e7784f6356ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Houses Stand Yellow.fbx using Guid(2119e748c6946d94795e7784f6356ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b320a6b3b50ab7d3a79d4e5dfc57020') in 0.014580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Foodtruck Coffee.fbx
+  artifactKey: Guid(5f582ee699834214a939c0fd782ec0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Foodtruck Coffee.fbx using Guid(5f582ee699834214a939c0fd782ec0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f71b7a11fe331563e798ff560962c3') in 0.026124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Low Poly Luna Park/Models/House Big.fbx
+  artifactKey: Guid(52dbf424ab5544b45974c0b7be821554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/House Big.fbx using Guid(52dbf424ab5544b45974c0b7be821554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e28c56cc561b6606239774ae96524') in 0.015453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Houses Green.fbx
+  artifactKey: Guid(3eb89ac93db80d2409e3c288a7740469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Houses Green.fbx using Guid(3eb89ac93db80d2409e3c288a7740469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985c58f63f806f0be936c7b4900c63a1') in 0.015962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Models/Ice Cube.fbx
+  artifactKey: Guid(a15ce95a6bf41ed4fbd0714cc19023a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Ice Cube.fbx using Guid(a15ce95a6bf41ed4fbd0714cc19023a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c259c16ca8a8c0acc756dc1f317f75') in 0.012982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Models/Kart Pink.fbx
+  artifactKey: Guid(2047d8afa63c09f4aa3ab2efe83427db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Kart Pink.fbx using Guid(2047d8afa63c09f4aa3ab2efe83427db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744275c175dfa91f68de02624a271fe7') in 0.023418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Kart Green.fbx
+  artifactKey: Guid(fc2b4f4b1590ba04090b6d1867bb969d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Kart Green.fbx using Guid(fc2b4f4b1590ba04090b6d1867bb969d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ba737dfbbf254f80d1891a3bf6fe1e') in 0.022907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Models/House Small.fbx
+  artifactKey: Guid(488e96b981f1a784cb34c74d4825c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/House Small.fbx using Guid(488e96b981f1a784cb34c74d4825c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788e9624cd8be824fe8067c04344ce09') in 0.015816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Houses Stand Green.fbx
+  artifactKey: Guid(a3978c7d14c440446a3c097143e1645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Houses Stand Green.fbx using Guid(a3978c7d14c440446a3c097143e1645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77896d9cee9cd177ca363880c7a552be') in 0.014038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098364 seconds.
+  path: Assets/Low Poly Luna Park/Models/Karting Enter Office.fbx
+  artifactKey: Guid(be827719180e948459bac1a9a7db358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Karting Enter Office.fbx using Guid(be827719180e948459bac1a9a7db358e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333aa789ee7eac88a368c36ca92ea15a') in 0.014286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Mushroom House.fbx
+  artifactKey: Guid(c90601bc510a5914d9da2ec5d2e0686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Mushroom House.fbx using Guid(c90601bc510a5914d9da2ec5d2e0686f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c967a9c5fce71632da991260f58a52d8') in 0.014247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Light Box.fbx
+  artifactKey: Guid(f88b23e8107db914e86c700b968dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Light Box.fbx using Guid(f88b23e8107db914e86c700b968dd872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a471ecd7ac8b835de50df467c0cad7c') in 0.018606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Lightbulb.fbx
+  artifactKey: Guid(273a47e8e6f69c045998af59f7fdcd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Lightbulb.fbx using Guid(273a47e8e6f69c045998af59f7fdcd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8d27547539e010664eef9447461bab') in 0.015171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Palm B.fbx
+  artifactKey: Guid(d204de7a242e11b48beefe3a11b5c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Palm B.fbx using Guid(d204de7a242e11b48beefe3a11b5c6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600318587108e18b47159549aeff4eb0') in 0.016562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Plate.fbx
+  artifactKey: Guid(95071414442e34241a7bd4f83e079647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Plate.fbx using Guid(95071414442e34241a7bd4f83e079647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6bb787bed0e8c68b5ba03131b936966') in 0.014444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Palm D.fbx
+  artifactKey: Guid(305468226c48be74f99229bb95d89fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Palm D.fbx using Guid(305468226c48be74f99229bb95d89fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61e39cf5adad7fd44ff66b3ab4cbb7c') in 0.014843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Models/Spotlight Big.fbx
+  artifactKey: Guid(1d17d2d2dff86d44f9c1abde13c38adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Spotlight Big.fbx using Guid(1d17d2d2dff86d44f9c1abde13c38adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd9f620dcf5f23a32df04982b2755f3') in 0.013434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Roof.fbx
+  artifactKey: Guid(fab453d896b4a984bae04cf39a4cd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Roof.fbx using Guid(fab453d896b4a984bae04cf39a4cd37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b90e81c0dc69179d53211a04d7a5da1') in 0.013672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Picture Black E.fbx
+  artifactKey: Guid(256e05af2b6699744a0410beb67a082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Picture Black E.fbx using Guid(256e05af2b6699744a0410beb67a082a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbf263160b22acdd7ae295131b9561a') in 0.018336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Models/Scales Pillar.fbx
+  artifactKey: Guid(bf7994c4e6dd5be42a2b43dfb99b1b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Scales Pillar.fbx using Guid(bf7994c4e6dd5be42a2b43dfb99b1b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e87b1e65fbe980ac5a71c163bac3f36') in 0.014124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Luna Park/Models/Refrigirator Bar Table Small.fbx
+  artifactKey: Guid(710ec6fc1111bba42a85eecf0a10e207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Refrigirator Bar Table Small.fbx using Guid(710ec6fc1111bba42a85eecf0a10e207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e7e682b43dc3d1a3ecfa6e7b28557d') in 0.024037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Roller Coaster Cabine Violet.fbx
+  artifactKey: Guid(0b8f6af10896eee4dbc53ab5e9000336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Roller Coaster Cabine Violet.fbx using Guid(0b8f6af10896eee4dbc53ab5e9000336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74127dc29f690959238360a1ff96f37e') in 0.030694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Sea Swing Enter Office.fbx
+  artifactKey: Guid(8573dc6164a509e48bb8b782516a7552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Sea Swing Enter Office.fbx using Guid(8573dc6164a509e48bb8b782516a7552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c972fc5c06fb5c4c1c6e3e3df7bf2451') in 0.013763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Picture Black D.fbx
+  artifactKey: Guid(8b764e99b53ee9e439472a75e13f1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Picture Black D.fbx using Guid(8b764e99b53ee9e439472a75e13f1d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c61646ff9735f524f46b881cdf36777') in 0.017923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Poster A.fbx
+  artifactKey: Guid(257f97b2fa8ddb943a7ccda95efbf8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Poster A.fbx using Guid(257f97b2fa8ddb943a7ccda95efbf8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b48f420bfdfdade552f6b7fd4f9f5') in 0.014363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Models/Projector.fbx
+  artifactKey: Guid(68ba3bd63f1b8b04eb1db4e9b31e4fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Projector.fbx using Guid(68ba3bd63f1b8b04eb1db4e9b31e4fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e635a8d6d3ded7d15cf3c4eb69f772dc') in 0.013251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Models/Picture Black B.fbx
+  artifactKey: Guid(e74c45cf9b15df04594c2e84d9b2feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Picture Black B.fbx using Guid(e74c45cf9b15df04594c2e84d9b2feed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4cc1450907a2b8613a0a4ba0d7d19') in 0.018471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Poster C.fbx
+  artifactKey: Guid(9226bcbf716c2e24899f914f0d5aa1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Poster C.fbx using Guid(9226bcbf716c2e24899f914f0d5aa1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f142396d2796f6c57f32f610b1370f8d') in 0.015626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Sea Swing Attraction.fbx
+  artifactKey: Guid(e79d6e9ca46fbb64f99034963cd276c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Sea Swing Attraction.fbx using Guid(e79d6e9ca46fbb64f99034963cd276c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd346abc5f0c9d6a45c0478d470866e') in 0.018629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020280 seconds.
+  path: Assets/Low Poly Luna Park/Models/Stand Gray .fbx
+  artifactKey: Guid(a90a16fc9c2caac40aca85f54ba2fc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Stand Gray .fbx using Guid(a90a16fc9c2caac40aca85f54ba2fc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4d2ceaad36236c2c338bd63c33386f') in 0.013863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Models/Stone A.fbx
+  artifactKey: Guid(09f5c138e66149444ae7ee6dbeab257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Stone A.fbx using Guid(09f5c138e66149444ae7ee6dbeab257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c7c3a8dccfeba0b2bcda72bbd12bc5') in 0.014345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Truck Trailor.fbx
+  artifactKey: Guid(6475921acfa4e4e43882c95a0f77785d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Truck Trailor.fbx using Guid(6475921acfa4e4e43882c95a0f77785d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12b48552df07b8bec637adb57e40d27') in 0.033518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Text Cold Beer.fbx
+  artifactKey: Guid(12f9f8dfde30ac24db621c9b8efbb2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Text Cold Beer.fbx using Guid(12f9f8dfde30ac24db621c9b8efbb2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05991db593124d75768a19c91117c63a') in 0.013668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Models/Wall Left Small.fbx
+  artifactKey: Guid(5a868b07647eecc4797b4fe59c40eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Wall Left Small.fbx using Guid(5a868b07647eecc4797b4fe59c40eaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78e3cd7cc9b44e7faad0345c4e7ac5c') in 0.015433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Wall Door Close.fbx
+  artifactKey: Guid(97ec839de755ffa4f8845e25d618cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Wall Door Close.fbx using Guid(97ec839de755ffa4f8845e25d618cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29ff7704367f6c41a7110508213521f') in 0.024612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Teddy Bear Pink.fbx
+  artifactKey: Guid(0ed9c2fd80cce684fb6b036f4fdc4208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Teddy Bear Pink.fbx using Guid(0ed9c2fd80cce684fb6b036f4fdc4208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade7f51d4b1bfbecf49fb16776f3f3ea') in 0.015837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Luna Park/Models/Sunblind Small Front.fbx
+  artifactKey: Guid(68ea266d6e8684c43911f7c799a35ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Sunblind Small Front.fbx using Guid(68ea266d6e8684c43911f7c799a35ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08b7b2d3cf990f04a7d9983facb91e7') in 0.016660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Models/Text Ice Cream.fbx
+  artifactKey: Guid(2ef4e9f14654f1045a0e339648f52850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Text Ice Cream.fbx using Guid(2ef4e9f14654f1045a0e339648f52850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed82b02fe7bfed82c12cd0ef483c0d6d') in 0.014698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Models/Stone B.fbx
+  artifactKey: Guid(e75125c22d128b946aeaa28ae7d4664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Stone B.fbx using Guid(e75125c22d128b946aeaa28ae7d4664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8e534f8ab8e1c3ffe73e69cf14abda') in 0.015660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Low Poly Luna Park/Models/Teddy Bear Braun.fbx
+  artifactKey: Guid(4f39cce04255b874f8650a21c6a3acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Teddy Bear Braun.fbx using Guid(4f39cce04255b874f8650a21c6a3acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469e127cd3cbd83ed99e14658df2a4cb') in 0.013607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Low Poly Luna Park/Models/Sunblind Big.fbx
+  artifactKey: Guid(4535a70a48f94a549adaccc1b3a39657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Sunblind Big.fbx using Guid(4535a70a48f94a549adaccc1b3a39657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f69486347a7b56a4a48d8989f405aae') in 0.013741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Wall.fbx
+  artifactKey: Guid(fbcc76ebb51a5284e8beb257ac61df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Wall.fbx using Guid(fbcc76ebb51a5284e8beb257ac61df37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbd45a0cefcd46c5ef33c9dab92d0ce') in 0.014582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Models/Teddy Bear Blue.fbx
+  artifactKey: Guid(0e03fe4a307c0594bb45b78437bc66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Teddy Bear Blue.fbx using Guid(0e03fe4a307c0594bb45b78437bc66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd555ea5d1c347684d7f176a2ac179824') in 0.013327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.205181 seconds.
+  path: Assets/Low Poly Luna Park/Models/Сharacters/Beard B.fbx
+  artifactKey: Guid(5da39f927dce73b468dbeb55837d9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Сharacters/Beard B.fbx using Guid(5da39f927dce73b468dbeb55837d9d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba866ad22324374a60b5dec349163b0') in 0.022133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Models/Сharacters/Male C.fbx
+  artifactKey: Guid(b7806c9548ea9e74aa9b9be569d4d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Сharacters/Male C.fbx using Guid(b7806c9548ea9e74aa9b9be569d4d0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5393bb51d89683f5f923ac4779b82c') in 0.059788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Models/Сharacters/Child Girl.fbx
+  artifactKey: Guid(9ddff284320faec41a411c86a1deccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Сharacters/Child Girl.fbx using Guid(9ddff284320faec41a411c86a1deccbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa2f8ad00ab66fd481fc98337a6bbb4') in 0.056813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Luna Park/Models/Сharacters/Male B.fbx
+  artifactKey: Guid(9bf4725ed5b0a0c498803fca99fcce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Сharacters/Male B.fbx using Guid(9bf4725ed5b0a0c498803fca99fcce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2a3586f7a9169ff428587731f27e57') in 0.054644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Models/Сharacters/Male Cook.fbx
+  artifactKey: Guid(10ef7646e76ff3c4c834661b65d42efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Сharacters/Male Cook.fbx using Guid(10ef7646e76ff3c4c834661b65d42efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9d6edb58296dffbe5cccddf675e7a0') in 0.051020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Models/Сharacters/Female Cook.fbx
+  artifactKey: Guid(abac0cb7925246d478bdaa850db995f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Models/Сharacters/Female Cook.fbx using Guid(abac0cb7925246d478bdaa850db995f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c720e37b847474dcae38bf47607bca9') in 0.046694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.524453 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Atraction Rocket.prefab
+  artifactKey: Guid(bd7a7d201b2814348acebe806c36e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Atraction Rocket.prefab using Guid(bd7a7d201b2814348acebe806c36e537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11728c0f6bd4efd56df0378389988e04') in 0.083832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ferris Wheel Cabine Yellow.prefab
+  artifactKey: Guid(9830265660f44d24ba2824b5401c563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ferris Wheel Cabine Yellow.prefab using Guid(9830265660f44d24ba2824b5401c563e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5930f4d4539be4fecbe464abac375ec') in 0.009425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Baloon Blue Light.prefab
+  artifactKey: Guid(44bcb18389304f04ca8d0d07016c996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Baloon Blue Light.prefab using Guid(44bcb18389304f04ca8d0d07016c996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462ab920407c476802a0989b05afb7b2') in 0.009283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Baloon White.prefab
+  artifactKey: Guid(64c76f19371ad5143a6928bd232719e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Baloon White.prefab using Guid(64c76f19371ad5143a6928bd232719e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df38e612d87d94e9c855139c310f604') in 0.009814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Baloon Blue.prefab
+  artifactKey: Guid(d124c6d539e36a1418510d17cdbe3e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Baloon Blue.prefab using Guid(d124c6d539e36a1418510d17cdbe3e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721bc1d5578c161711d2b7091c0a58c2') in 0.009163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Cup Without Cover Red.prefab
+  artifactKey: Guid(aed422776d177284cb260147e48ebbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Cup Without Cover Red.prefab using Guid(aed422776d177284cb260147e48ebbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7095728dff6ab6212e4a78652c5dd09') in 0.009016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Box A.prefab
+  artifactKey: Guid(3cb41a8b8db402b4e8ace4a89937dd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Box A.prefab using Guid(3cb41a8b8db402b4e8ace4a89937dd04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f0a87ad223e9430583fe0f219373bb') in 0.010220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Drink A.prefab
+  artifactKey: Guid(6a036ef379cc3d44b85aa8c4b7526220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Drink A.prefab using Guid(6a036ef379cc3d44b85aa8c4b7526220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2261d9fa4e8770ec6b74b6f8dd7442') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Bar Table Kitchen.prefab
+  artifactKey: Guid(5c33858b9b5cd0d4885244bf4202a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Bar Table Kitchen.prefab using Guid(5c33858b9b5cd0d4885244bf4202a8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a77dce75d597fad9a7ce20e82bef54') in 0.010471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Cotton Candy Mashine.prefab
+  artifactKey: Guid(4cb9e1bf3d473dc4dbb0de559c393acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Cotton Candy Mashine.prefab using Guid(4cb9e1bf3d473dc4dbb0de559c393acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8aa35fb3345933330c2c5bacf70385') in 0.009691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Box C.prefab
+  artifactKey: Guid(a193752b609b5554fb9a12e9522998f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Box C.prefab using Guid(a193752b609b5554fb9a12e9522998f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9898f95871270ba6384e4e1ac6d7b65b') in 0.009221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Fish Toy Pink.prefab
+  artifactKey: Guid(53d3e03eeb964ea45aa855ebf085160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Fish Toy Pink.prefab using Guid(53d3e03eeb964ea45aa855ebf085160a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ac0048391539f1f72cdeb669b506a4') in 0.009857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Fish Toy Violet.prefab
+  artifactKey: Guid(f717f0648ba755843a9ae91f0a33552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Fish Toy Violet.prefab using Guid(f717f0648ba755843a9ae91f0a33552f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d2be7b69ad0d7ea30fcfa68f7a0872') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Board Red.prefab
+  artifactKey: Guid(60fda8184e5b6dd479d95a04cc4269f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Board Red.prefab using Guid(60fda8184e5b6dd479d95a04cc4269f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11d949579a5d3d38cf1680fdb637cef') in 0.011641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Bar Сounter.prefab
+  artifactKey: Guid(64553b502c0873f408853a81da0da249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Bar Сounter.prefab using Guid(64553b502c0873f408853a81da0da249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b86907ada2c0aee641d5fefaf33936a') in 0.009422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Beer Machine.prefab
+  artifactKey: Guid(25423bbe5d3b1e64a829f7d783a2cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Beer Machine.prefab using Guid(25423bbe5d3b1e64a829f7d783a2cd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0b5a1c4f405f66c07f6edaa7b18db') in 0.011599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Baloon Pink.prefab
+  artifactKey: Guid(516230c6dfc445c4884da729bc3907d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Baloon Pink.prefab using Guid(516230c6dfc445c4884da729bc3907d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6485ebe672e79b32f627068b15c9ae6') in 0.010311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Drink B.prefab
+  artifactKey: Guid(2e043e450181426458e76a04a19bd3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Drink B.prefab using Guid(2e043e450181426458e76a04a19bd3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0075762b9b5ad136d37a13384e0ed92c') in 0.008674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Balloon Ozone.prefab
+  artifactKey: Guid(cd5a9f9586a31d84e9d5bf5210541358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Balloon Ozone.prefab using Guid(cd5a9f9586a31d84e9d5bf5210541358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c96790d94164bdcbc09830c7a0db767') in 0.008875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ferris Wheel Cabine Red.prefab
+  artifactKey: Guid(86395236bec7a2e41a739f66b7a9fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ferris Wheel Cabine Red.prefab using Guid(86395236bec7a2e41a739f66b7a9fd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dda94a9b1887a47c44812ad2da73ea') in 0.010264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Coffeemachine.prefab
+  artifactKey: Guid(39e618b4c69ef9d4fb5fbb3a6d722fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Coffeemachine.prefab using Guid(39e618b4c69ef9d4fb5fbb3a6d722fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130b67d9c2bb7942a74d1695e5811bc4') in 0.009694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Carousel .prefab
+  artifactKey: Guid(79b0802be610cef46826d8cfada53d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Carousel .prefab using Guid(79b0802be610cef46826d8cfada53d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f424eb9b93fa17e5fca6eae9c38117d6') in 0.012913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267263 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Flag A.prefab
+  artifactKey: Guid(95bc166bb95400c45b58b88446a17a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Flag A.prefab using Guid(95bc166bb95400c45b58b88446a17a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c87b389ca752e407609ea63ca85ab72') in 0.008856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Foodtruck  Locker.prefab
+  artifactKey: Guid(a4d6471a880f5f147a24e486516076f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Foodtruck  Locker.prefab using Guid(a4d6471a880f5f147a24e486516076f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881d1cebf5d40f17fbd9447104fd924b') in 0.009324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Floor Wood.prefab
+  artifactKey: Guid(79a766c29489e604d8cdf79014f20a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Floor Wood.prefab using Guid(79a766c29489e604d8cdf79014f20a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a938dd526bcb7df6f05fedcb36f759a') in 0.010463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/House Big.prefab
+  artifactKey: Guid(2171e1dc3bc85a14480450664863948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/House Big.prefab using Guid(2171e1dc3bc85a14480450664863948f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2275522ab6281ec3eae52de70620254') in 0.010150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/House Medium.prefab
+  artifactKey: Guid(40430438dddbe7445a2ece6b00f6ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/House Medium.prefab using Guid(40430438dddbe7445a2ece6b00f6ce75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2083c4e4a891cb5272be7bb9c5f4caae') in 0.009309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Houses Green.prefab
+  artifactKey: Guid(65805b5d62589b5429b30d41f30d7508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Houses Green.prefab using Guid(65805b5d62589b5429b30d41f30d7508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1989bae814f19dda886ae8cafb8b5cc4') in 0.009246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Foodtruck Icecream.prefab
+  artifactKey: Guid(60a5e1a4c2fca9049b306f72e50b6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Foodtruck Icecream.prefab using Guid(60a5e1a4c2fca9049b306f72e50b6cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641f0ece311a403c36f03617f693d33b') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ice Cube.prefab
+  artifactKey: Guid(f450141c5511747439703c67974921d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ice Cube.prefab using Guid(f450141c5511747439703c67974921d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e08787b65dd8286bd1746e16a88484d') in 0.010038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Kart Violet.prefab
+  artifactKey: Guid(e0d0ecdf198907c43b2dfc0d86d99b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Kart Violet.prefab using Guid(e0d0ecdf198907c43b2dfc0d86d99b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d09192d115f7e924eadf67d1e322d6') in 0.009961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Lamppost.prefab
+  artifactKey: Guid(be45c1b5583203845875d1331c73b8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Lamppost.prefab using Guid(be45c1b5583203845875d1331c73b8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c308f191f8aa8523461cb7bec7808d72') in 0.009583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Houses.prefab
+  artifactKey: Guid(44fec2f5b600d314eacaed5b798dc81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Houses.prefab using Guid(44fec2f5b600d314eacaed5b798dc81e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b43b2096982050daeb27817262c9ed2') in 0.007874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ice Plane.prefab
+  artifactKey: Guid(f9472c78795e9b44694325bdc94a18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ice Plane.prefab using Guid(f9472c78795e9b44694325bdc94a18e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09113b4786fe4f9ec3e97ff74fccdc17') in 0.010477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Gate.prefab
+  artifactKey: Guid(b3bed4b47ee9c324599eebc9ac56e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Gate.prefab using Guid(b3bed4b47ee9c324599eebc9ac56e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89aee4169e27929c6cd310f9a8bd42b8') in 0.008823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Island.prefab
+  artifactKey: Guid(0c873d9691bbcf84b81586d752289a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Island.prefab using Guid(0c873d9691bbcf84b81586d752289a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107da2e097a6faf294b9f40719e7dfdf') in 0.010274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Mushroom House.prefab
+  artifactKey: Guid(3c5d436d7d04f194d8dcdd061e3f5d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Mushroom House.prefab using Guid(3c5d436d7d04f194d8dcdd061e3f5d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa47c4451cd43ad03ca2a608dc07d2f9') in 0.010486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Flag C.prefab
+  artifactKey: Guid(93d1d78cd4cc2f241b7bbf69fbba9c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Flag C.prefab using Guid(93d1d78cd4cc2f241b7bbf69fbba9c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621baebfd8d2511c4674d3b24c7b709c') in 0.009615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ice Cream Machine.prefab
+  artifactKey: Guid(3e544123c6e67404e9a9f5777dfb2609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ice Cream Machine.prefab using Guid(3e544123c6e67404e9a9f5777dfb2609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd925303b8c41ae896ad6a26c404e0a42') in 0.010365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ice Cream B.prefab
+  artifactKey: Guid(092ac6d5fe119bf4485179694ce7dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ice Cream B.prefab using Guid(092ac6d5fe119bf4485179694ce7dbc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5734807b78a9fde9bd21b2f90c02fd') in 0.011407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087790 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Palm D.prefab
+  artifactKey: Guid(8f2a5998d22f2af419e3b44d8f8be38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Palm D.prefab using Guid(8f2a5998d22f2af419e3b44d8f8be38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040fd0effc70ad478122bd6b0aac6368') in 0.008716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Picture White.prefab
+  artifactKey: Guid(9e10ce6c23830a841b7297367f00aa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Picture White.prefab using Guid(9e10ce6c23830a841b7297367f00aa9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232229cef827a0cf85cfa7cd21f2c7ba') in 0.011928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Picture Black B.prefab
+  artifactKey: Guid(9d9789f3671551b42ad4f77c99fa6425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Picture Black B.prefab using Guid(9d9789f3671551b42ad4f77c99fa6425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8716d2406ae76d498c7123a7f1cf2e8') in 0.010503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Popcorn.prefab
+  artifactKey: Guid(762d13f57e7a6bd4cb7f1699a833c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Popcorn.prefab using Guid(762d13f57e7a6bd4cb7f1699a833c475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2331ff238c08d47c919d021e045fef') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Refrigirator Bar Table.prefab
+  artifactKey: Guid(a1cb4c564af947948846214845547769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Refrigirator Bar Table.prefab using Guid(a1cb4c564af947948846214845547769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085476e05fd1b7eb7398ff5ccbce23df') in 0.010633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Roof.prefab
+  artifactKey: Guid(b15d2e2a7bf770344972b5cd5cd7f093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Roof.prefab using Guid(b15d2e2a7bf770344972b5cd5cd7f093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de871e13e762767b1d43feefb3d2f0d') in 0.009996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Refrigirator Drinks.prefab
+  artifactKey: Guid(5fcc468e098be704f9d7939cbeeed0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Refrigirator Drinks.prefab using Guid(5fcc468e098be704f9d7939cbeeed0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a51eb00412ab02dfb7ff8ab5230693b') in 0.010398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Sea Swing Attraction.prefab
+  artifactKey: Guid(36cb6909f4fb1ff4d9a0f86bee023c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Sea Swing Attraction.prefab using Guid(36cb6909f4fb1ff4d9a0f86bee023c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10711b7af2b40daab2669f3750822f') in 0.010411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Teapot Enter Office.prefab
+  artifactKey: Guid(6d51d37c4c1bd6a45a6fafddf1189c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Teapot Enter Office.prefab using Guid(6d51d37c4c1bd6a45a6fafddf1189c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c0b5e5b98f856b2457a195db38db5b') in 0.009007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Roller Coaster Cabine Yellow.prefab
+  artifactKey: Guid(7284038f6dde4c644890bb41e6314a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Roller Coaster Cabine Yellow.prefab using Guid(7284038f6dde4c644890bb41e6314a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7171110204c206fab50ef14abda41e8') in 0.009408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Stand Flags Baloons.prefab
+  artifactKey: Guid(078c3d2dfc02d1a4db0424c4a66c2d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Stand Flags Baloons.prefab using Guid(078c3d2dfc02d1a4db0424c4a66c2d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dccd648a922ebb62ffd77399bc0ac6e') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Stand Gray .prefab
+  artifactKey: Guid(ad32a62b46cc23a40bd3d584daf14577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Stand Gray .prefab using Guid(ad32a62b46cc23a40bd3d584daf14577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7819e1b6d118532cecf70b03bb4aba6c') in 0.009456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Poster A.prefab
+  artifactKey: Guid(f42a819e59e7adb4595a8fd1f87efa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Poster A.prefab using Guid(f42a819e59e7adb4595a8fd1f87efa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373003983406f224fff2a5d5a695449c') in 0.010334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Teddy Bear Blue.prefab
+  artifactKey: Guid(1c040645d38df5843a147102c2164158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Teddy Bear Blue.prefab using Guid(1c040645d38df5843a147102c2164158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4a00f9a3a684b70d6004283c760b31') in 0.009103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Poster C.prefab
+  artifactKey: Guid(3c88f5a3be8e6ab47bb0878c932a2994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Poster C.prefab using Guid(3c88f5a3be8e6ab47bb0878c932a2994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d88e674fd7d7e00e59e0f817d0be89') in 0.010333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Rope Lightbilb.prefab
+  artifactKey: Guid(7bacfc654fad61848aaf64ae6747a9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Rope Lightbilb.prefab using Guid(7bacfc654fad61848aaf64ae6747a9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6adc7afaa064daca4518543e6b2bc6') in 0.009575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Sunblind Big.prefab
+  artifactKey: Guid(bb267f64776348e42a3112c09f069156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Sunblind Big.prefab using Guid(bb267f64776348e42a3112c09f069156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43fa7281321647b311f34e727d64fb7') in 0.010145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Picture Black A.prefab
+  artifactKey: Guid(a71b956fcdd37bd4490a10c1aa5bddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Picture Black A.prefab using Guid(a71b956fcdd37bd4490a10c1aa5bddd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5e66a603667b4011174d0bec381d5a') in 0.014456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094195 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Text Cotton Candy.prefab
+  artifactKey: Guid(56a8ca2782e90e24582ee5f55fdd93a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Text Cotton Candy.prefab using Guid(56a8ca2782e90e24582ee5f55fdd93a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5193e772dbf5c11f8902632b7c3b837') in 0.009196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ticket Office.prefab
+  artifactKey: Guid(86c55fcfa083532448ecea54d836199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ticket Office.prefab using Guid(86c55fcfa083532448ecea54d836199f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728b02eca0addc70c8915994db7bbbe4') in 0.009590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Ticket B.prefab
+  artifactKey: Guid(c509d9807d739e44ca4faa066f928906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Ticket B.prefab using Guid(c509d9807d739e44ca4faa066f928906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d5bcfb650757a869f8818e600f9d99') in 0.009366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Trash Container Yellow.prefab
+  artifactKey: Guid(03b705f61b23c31469ddf8ef29f99071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Trash Container Yellow.prefab using Guid(03b705f61b23c31469ddf8ef29f99071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a15432c323cee4feedcc2b07ef34fb') in 0.009588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Truck Trailor.prefab
+  artifactKey: Guid(15ecad03db940c04895d72bd1e188801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Truck Trailor.prefab using Guid(15ecad03db940c04895d72bd1e188801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fbc8cbad3f4e23ca49d0e4c9d8d8cd') in 0.009498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Wall Front.prefab
+  artifactKey: Guid(663cf0172fb03f845ac43a7704dc543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Wall Front.prefab using Guid(663cf0172fb03f845ac43a7704dc543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653f08353094ed10b4f76408a1e454b3') in 0.011117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Tree Medium.prefab
+  artifactKey: Guid(58435251060c83a4987d61330f00b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Tree Medium.prefab using Guid(58435251060c83a4987d61330f00b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee4e361ea45bd6879b306a82c14762c') in 0.009918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Wall.prefab
+  artifactKey: Guid(7f17efb900579d64dbf3cebed7391a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Wall.prefab using Guid(7f17efb900579d64dbf3cebed7391a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e2b69f66c60d09c2540ccd443dcdec') in 0.008536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Wall Front Small.prefab
+  artifactKey: Guid(d9b7fcd1676d370429d1fb73d6a63848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Wall Front Small.prefab using Guid(d9b7fcd1676d370429d1fb73d6a63848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbee8b790c7bc398cd2f78687d499466') in 0.007602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Wall Door Close.prefab
+  artifactKey: Guid(d8666c50f56572e4e9336602def789bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Wall Door Close.prefab using Guid(d8666c50f56572e4e9336602def789bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5c96644eba0ec84785a23c6bea04a3') in 0.009492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.411192 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Characters/Female A.prefab
+  artifactKey: Guid(7a208cc55ade7b2489bfaeaf605887f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Characters/Female A.prefab using Guid(7a208cc55ade7b2489bfaeaf605887f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1baa266d850d5f156e2b4a54f3392fb') in 0.014365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Characters/Female C.prefab
+  artifactKey: Guid(711ed3a5b4d457747b9b8b65348e3e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Characters/Female C.prefab using Guid(711ed3a5b4d457747b9b8b65348e3e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e99404528c1c40a6ce41c70c5cf4146') in 0.012665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Characters/Female Cook.prefab
+  artifactKey: Guid(c2893147cc8934148b9c41d40c51c7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Characters/Female Cook.prefab using Guid(c2893147cc8934148b9c41d40c51c7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f618eff261bc9c10e080c84da4a79ce4') in 0.026060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Low Poly Luna Park/Prefabs/Characters/Female Instructor.prefab
+  artifactKey: Guid(b2ef1b85704e5af4d8d9ec8f8bc12cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Luna Park/Prefabs/Characters/Female Instructor.prefab using Guid(b2ef1b85704e5af4d8d9ec8f8bc12cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc708b14b18795f453b058d0b3dccd3') in 0.040901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.717536 seconds.
+  path: Assets/resource_default/box_a_01.png
+  artifactKey: Guid(f7420318a046742439fc1f7e0fb33dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_a_01.png using Guid(f7420318a046742439fc1f7e0fb33dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3be0479d97a815969cd171ab3ebbf70') in 0.021611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource_default/box_c_02.png
+  artifactKey: Guid(e8def83b1cf543e4a9513f7aaa7bd953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_c_02.png using Guid(e8def83b1cf543e4a9513f7aaa7bd953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ce8aedb226316a517fa5515297a161') in 0.012864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource_default/box_b_04.png
+  artifactKey: Guid(47b0b6ed20592d74ba2a6d517e877ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_b_04.png using Guid(47b0b6ed20592d74ba2a6d517e877ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6226bdb341621144b703bbc7c3004ee1') in 0.014709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource_default/box_a_03.png
+  artifactKey: Guid(7cd59d7fb38a77f4ca92099e8d101b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_a_03.png using Guid(7cd59d7fb38a77f4ca92099e8d101b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e667ff37d39eb9d18508525f02ab963') in 0.012695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource_default/box_b.png
+  artifactKey: Guid(7ff78b329f164464ea5df9a3227b3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_b.png using Guid(7ff78b329f164464ea5df9a3227b3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9313df280c313b67012b1940a8f0cb3c') in 0.015512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/resource_default/btn_a_red.png
+  artifactKey: Guid(74976faeb568f074d9f1a4df7ca78d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/btn_a_red.png using Guid(74976faeb568f074d9f1a4df7ca78d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd61d2dc004ff3f2ad6c0576dc1d356e') in 0.014623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource_default/box_b_03.png
+  artifactKey: Guid(cd5efc45d507a414c81bd895a5528a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_b_03.png using Guid(cd5efc45d507a414c81bd895a5528a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ddbf6245501e2cc0688a08a6995078') in 0.010359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/resource_default/btn_a_emerald.png
+  artifactKey: Guid(e87e973aa97e2cf41885259822725eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/btn_a_emerald.png using Guid(e87e973aa97e2cf41885259822725eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb9e57f4b68d7dfb2f9b473dc6a8300') in 0.016507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/resource_default/box_c_03.png
+  artifactKey: Guid(4acc179c0277ddf4fa72e6d397096d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/box_c_03.png using Guid(4acc179c0277ddf4fa72e6d397096d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e277137248b24f79d4ef41297b54729') in 0.011435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource_default/btn_a_beige.png
+  artifactKey: Guid(8e8051156b4decf4693f0648a48b3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/btn_a_beige.png using Guid(8e8051156b4decf4693f0648a48b3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130829dbda3f300e509f3d11f8374182') in 0.015835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.448241 seconds.
+  path: Assets/resource_default/btn_b_red.png
+  artifactKey: Guid(0a1a18af546cb004db55d57b6559928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/btn_b_red.png using Guid(0a1a18af546cb004db55d57b6559928b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce108f96de3a35f7823e6b0156622d80') in 0.013376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource_default/divider_a.png
+  artifactKey: Guid(e460759783bc11a40b0b706688151e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/divider_a.png using Guid(e460759783bc11a40b0b706688151e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b3b188198fa01689140ce7d1feb1e2') in 0.010663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource_default/gage_a_empty.png
+  artifactKey: Guid(2a7229b8854f44e468f330c2cfe50c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/gage_a_empty.png using Guid(2a7229b8854f44e468f330c2cfe50c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f980b71020aae2a73f55f8dcdff10f03') in 0.010652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource_default/btn_c_emerald.png
+  artifactKey: Guid(7017830725262a140b5d8a3d39a0b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/btn_c_emerald.png using Guid(7017830725262a140b5d8a3d39a0b11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432008888c3f38d2bf9378fd96d1e31e') in 0.012746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource_default/btn_c_grey.png
+  artifactKey: Guid(6e66bb159c14d844580544244bf0d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/btn_c_grey.png using Guid(6e66bb159c14d844580544244bf0d9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4411eece71af25287a378be7edbd73') in 0.011281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.829253 seconds.
+  path: Assets/resource_default/gage_b_fill01.png
+  artifactKey: Guid(9df81246e4df1154cb8d7410d2af7e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/gage_b_fill01.png using Guid(9df81246e4df1154cb8d7410d2af7e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872585fb3e7ec2791527e58504e34b91') in 0.017934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066341 seconds.
+  path: Assets/resource_default/gage_b_fill04.png
+  artifactKey: Guid(74eea1e5ac116724fad3c1971b35589c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/gage_b_fill04.png using Guid(74eea1e5ac116724fad3c1971b35589c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5940e2ce71b9f8d5066434b180f663c') in 0.010411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025255 seconds.
+  path: Assets/resource_default/gage_b_fill07.png
+  artifactKey: Guid(3e5237d08b3a99a459942236eb0532f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/gage_b_fill07.png using Guid(3e5237d08b3a99a459942236eb0532f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83bbd84281fc62e5762d19f3db268ab') in 0.010268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/resource_default/gage_b_fill08.png
+  artifactKey: Guid(d40499526caa6e243958c6071f4d5b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/gage_b_fill08.png using Guid(d40499526caa6e243958c6071f4d5b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f280d257bb4e687b8df600185c92ac') in 0.010218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.008976 seconds.
+  path: Assets/resource_default/icon_arrowdown.png
+  artifactKey: Guid(031411cfd15824643a4ccdedb8d36bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/icon_arrowdown.png using Guid(031411cfd15824643a4ccdedb8d36bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f80d95bbc6b184d9837b8768c93550b') in 0.034203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/resource_default/innerbox_a_btn_02.png
+  artifactKey: Guid(49eaf0cf4f54e7a4ab865811163498e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/innerbox_a_btn_02.png using Guid(49eaf0cf4f54e7a4ab865811163498e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd457b8192d20f5f3dca1a0e98f00d2d0') in 0.009846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/resource_default/point_beige.png
+  artifactKey: Guid(e73dd9c018a08e74e9e3b6b52eba48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/point_beige.png using Guid(e73dd9c018a08e74e9e3b6b52eba48b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adf1104a5f8980e1bff545cd680a304') in 0.011103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/resource_default/innerbox_a_btn_04.png
+  artifactKey: Guid(ff3db5d915c96184ea06e6aff8c7240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/innerbox_a_btn_04.png using Guid(ff3db5d915c96184ea06e6aff8c7240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd295ecf678108a9051c892864e3ee7a3') in 0.009994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/resource_default/radio_check.png
+  artifactKey: Guid(df907ac5977a0d543a06e726893e2c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resource_default/radio_check.png using Guid(df907ac5977a0d543a06e726893e2c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8b3bd88848d64a6b077561d1d031b8') in 0.011107 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
