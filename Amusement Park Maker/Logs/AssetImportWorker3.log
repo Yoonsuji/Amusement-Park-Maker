@@ -15,7 +15,7 @@ C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-51736
+57388
 Successfully changed project path to: C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
 C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/tnwl1/Documents/GitHub/Amusement-Park-Maker/Amusement Park Maker
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7600] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 1716765127 [EditorId] 1716765127 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30792] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 998272937 [EditorId] 998272937 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7600] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 1716765127 [EditorId] 1716765127 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30792] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 998272937 [EditorId] 998272937 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 66.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -67,78 +67,78 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004818 seconds.
+Registered in 0.005189 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.491 seconds
+- Completed reload, in  0.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (492ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (466ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (353ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (322ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (81ms)
+			SetupTypeCache (75ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004263 seconds.
+Registered in 0.004357 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\Documents\GitHub\Amusement-Park-Maker\Amusement Park Maker\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\Documents\GitHub\Amusement-Park-Maker\Amusement Park Maker\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.744 seconds
+- Completed reload, in  0.698 seconds
 Domain Reload Profiling:
-	ReloadAssembly (744ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (698ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (242ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (246ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +146,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3509.
-Memory consumption went from 108.2 MB to 108.1 MB.
-Total: 2.470000 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.105700 ms MarkObjects: 2.096100 ms  DeleteObjects: 0.074100 ms)
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.1 KB). Loaded Objects now: 3580.
+Memory consumption went from 124.5 MB to 124.4 MB.
+Total: 2.943500 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.140700 ms MarkObjects: 2.481900 ms  DeleteObjects: 0.100400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,25 +167,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 14347.240449 seconds.
-  path: Assets/resource_default/innerbox_a.png
-  artifactKey: Guid(d987d57fd92b64048bbfeee60e636663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/resource_default/innerbox_a.png using Guid(d987d57fd92b64048bbfeee60e636663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf45b54b75638182099a079f5345f7ad') in 0.110197 seconds 
+  Time since last request: 20044.728448 seconds.
+  path: Assets/Image/man_3.png
+  artifactKey: Guid(609c838d6a648364c8a419dd4145bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/man_3.png using Guid(609c838d6a648364c8a419dd4145bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1417d11861160911e734529acdd0dc') in 0.100738 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1828.578807 seconds.
-  path: Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png
-  artifactKey: Guid(3e56fccbd43645846b91452f3498941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png using Guid(3e56fccbd43645846b91452f3498941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d9078a5c88733d02e518997ec50ba4') in 0.037392 seconds 
+  Time since last request: 7.759742 seconds.
+  path: Assets/Image/man_3.png
+  artifactKey: Guid(609c838d6a648364c8a419dd4145bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/man_3.png using Guid(609c838d6a648364c8a419dd4145bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8450b27de45f8529abc3587887e5bb0') in 0.272853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Hand Painted Grass  Texture/Texture/Grass_Roughness.png
-  artifactKey: Guid(5347fc6026112854da8e63940ca13972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Grass  Texture/Texture/Grass_Roughness.png using Guid(5347fc6026112854da8e63940ca13972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385c0c211a3d972707dcab117481926') in 0.010565 seconds 
+  Time since last request: 102.027945 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd284e5b1a8e15a9d5f3996cc27e8f9') in 0.050932 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.892916 seconds.
-  path: Assets/Hand Painted Grass  Texture/Material/Gtass_normal.mat
-  artifactKey: Guid(ffa9f731b331c2e40a2d09ecab6118c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Grass  Texture/Material/Gtass_normal.mat using Guid(ffa9f731b331c2e40a2d09ecab6118c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3d4333c19456e07479852bd89cb45b') in 0.229782 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39f9c91bf5165c219272e3d19e471cd') in 0.014526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f691fcd04daa8e5231d216c74a6566') in 0.016893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bd036785823e2281556a384dd6489b') in 0.013610 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
