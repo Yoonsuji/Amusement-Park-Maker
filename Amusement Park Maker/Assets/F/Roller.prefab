@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3123680903571205087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4330520320753462139}
+  m_Layer: 0
+  m_Name: Roller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4330520320753462139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123680903571205087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 141.98178, y: -1.219974, z: 92.60652}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7080765311772409751}
+  - {fileID: 3764853601828304414}
+  - {fileID: 4793745392308255803}
+  - {fileID: 4058496917041150092}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3141786006738865628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4330520320753462139}
+    m_Modifications:
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.48742676
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2199746
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.724319
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765587421510479850, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+      propertyPath: m_Name
+      value: Roller Coaster
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+--- !u!4 &4058496917041150092 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1426357725745902928, guid: 59d6d17ed72b2d04daf82f6fe16374fb, type: 3}
+  m_PrefabInstance: {fileID: 3141786006738865628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3199053748797969720
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4330520320753462139}
+    m_Modifications:
+    - target: {fileID: 5002773830101790741, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_Name
+      value: Roller Coaster Cabine Violet
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.597
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3499742
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.772
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.64908004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7607202
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 99.055
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+--- !u!4 &7080765311772409751 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5631396081987627695, guid: 8519d2bfd675b884ab11be2adf51b060, type: 3}
+  m_PrefabInstance: {fileID: 3199053748797969720}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5239852234123662015
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4330520320753462139}
+    m_Modifications:
+    - target: {fileID: 8629762286125940251, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_Name
+      value: Roller Coaster Cabine Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.40094
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.139974
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.3569336
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.684445
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7290645
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 93.616
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2da770649e5850f4389212f438439962, type: 3}
+--- !u!4 &3764853601828304414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8973637483483440289, guid: 2da770649e5850f4389212f438439962, type: 3}
+  m_PrefabInstance: {fileID: 5239852234123662015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6055798563459669721
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4330520320753462139}
+    m_Modifications:
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.158
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1555512
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.805
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68652207
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7271091
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 93.289
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2145853145016121432, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+      propertyPath: m_Name
+      value: Roller Coaster Cabine Green
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+--- !u!4 &4793745392308255803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1624755738673373922, guid: 6cb5034e13e6a414785b16db415ceaaf, type: 3}
+  m_PrefabInstance: {fileID: 6055798563459669721}
+  m_PrefabAsset: {fileID: 0}
