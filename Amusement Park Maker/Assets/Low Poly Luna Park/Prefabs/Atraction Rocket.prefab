@@ -110,10 +110,10 @@ GameObject:
   m_Component:
   - component: {fileID: 295307502759142883}
   - component: {fileID: -5951251211507841880}
-  - component: {fileID: 514402338795719311}
+  - component: {fileID: 4750304595735669115}
   m_Layer: 0
   m_Name: Atraction Rocket
-  m_TagString: Untagged
+  m_TagString: Object_1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,8 +153,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &514402338795719311
-CapsuleCollider:
+--- !u!65 &4750304595735669115
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -163,10 +163,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 4.145173
-  m_Height: 8.715069
-  m_Direction: 1
-  m_Center: {x: -0.25403976, y: 3.8575344, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 8.491037, y: 8.544157, z: 8.026776}
+  m_Center: {x: -0.15245795, y: 3.7720785, z: 0.23450232}
 --- !u!1 &1328321579438997181
 GameObject:
   m_ObjectHideFlags: 0

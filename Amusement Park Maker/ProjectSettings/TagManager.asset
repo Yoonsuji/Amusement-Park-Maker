@@ -8,6 +8,8 @@ TagManager:
   - sittingpoint
   - pickuppoint
   - waypoint
+  - Ground
+  - Object_1
   layers:
   - Default
   - TransparentFX

@@ -13,7 +13,9 @@ public class BuildingMaker : MonoBehaviour
     private RaycastHit hit;
     [SerializeField] private LayerMask layerMask;
 
+    public float rotateAmount;
     private bool objectPlaced = false;
+
     private void Update()
     {
         if(pendingObject != null)
@@ -21,14 +23,23 @@ public class BuildingMaker : MonoBehaviour
             pendingObject.transform.position = pos;
             if(Input.GetMouseButtonDown(0))
             {
-                Instantiate(pendingObject, hit.point, Quaternion.identity);
+                //Instantiate(pendingObject, hit.point, Quaternion.identity);
                 PlaceObject();
                 objectPlaced = true;
+            }
+
+            if(Input.GetMouseButtonDown(1)) 
+            {
+                RotateObject();              
             }
 
         }
     }
 
+    public void RotateObject()
+    {
+        pendingObject.transform.Rotate(Vector3.up, rotateAmount);
+    }
     public void PlaceObject()
     {
         pendingObject = null;
