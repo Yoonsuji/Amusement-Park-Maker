@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8833417296014551816}
   - component: {fileID: 7947858497453352021}
   - component: {fileID: 6490540554937595566}
-  - component: {fileID: 3729427448050118782}
   m_Layer: 0
   m_Name: Ferris Wheel Cabine Door.001
   m_TagString: Untagged
@@ -29,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.83765537, y: -2.9537396, z: 0.8850581}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7031210316174916426}
   m_RootOrder: 0
@@ -52,10 +52,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,20 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3729427448050118782
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6604257912189367952}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3463434562921499752, guid: c2ed80b38e3efee4e93045bbea697ea5, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &7698956524468216304
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +94,6 @@ GameObject:
   - component: {fileID: 7031210316174916426}
   - component: {fileID: 6213906537893983471}
   - component: {fileID: 8203531413420834853}
-  - component: {fileID: 7041089233163516638}
   m_Layer: 0
   m_Name: Ferris Wheel Cabine Red
   m_TagString: Untagged
@@ -123,6 +111,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8833417296014551816}
   m_Father: {fileID: 0}
@@ -147,10 +136,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -176,17 +167,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7041089233163516638
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7698956524468216304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3900902454353854786, guid: c2ed80b38e3efee4e93045bbea697ea5, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}

@@ -9,19 +9,21 @@ public class ScoreManager : MonoBehaviour
     public Text scoreText;
     private int score = 0;
     // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        UpdateScoreText();
+        scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
+        UpdateScore();
     }
 
     public void IncreaseScore(int amount)
     {
         score += amount;
-        UpdateScoreText();
+        UpdateScore();
     }
-    // Update is called once per frame
-    void UpdateScoreText()
+
+    public void UpdateScore()
     {
-        scoreText.text = "" + score.ToString();
+        scoreText.text = "" + score;
     }
 }

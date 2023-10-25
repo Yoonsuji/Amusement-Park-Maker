@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5812363177480249598}
   - component: {fileID: 156485174926418400}
   - component: {fileID: 8499498137838479981}
-  - component: {fileID: 5013322327354114734}
   m_Layer: 0
   m_Name: Roller Coaster Wheel.016
   m_TagString: Untagged
@@ -29,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.69977635, y: 0.10291046, z: 0.000000016766242}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5631396081987627695}
   m_RootOrder: 2
@@ -52,10 +52,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -80,20 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &5013322327354114734
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319229206873555992}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4717213589700116449, guid: 0b8f6af10896eee4dbc53ab5e9000336, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &5002773830101790741
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,7 +94,6 @@ GameObject:
   - component: {fileID: 5631396081987627695}
   - component: {fileID: 8757644694930400522}
   - component: {fileID: 6804253194508161472}
-  - component: {fileID: 8085584852971249842}
   m_Layer: 0
   m_Name: Roller Coaster Cabine Violet
   m_TagString: Untagged
@@ -123,6 +111,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1257315102389328876}
   - {fileID: 1339397501670636396}
@@ -150,10 +139,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -178,20 +169,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8085584852971249842
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5002773830101790741}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3191002440446909156, guid: 0b8f6af10896eee4dbc53ab5e9000336, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6280240780962148445
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +181,6 @@ GameObject:
   - component: {fileID: 5390481252310416275}
   - component: {fileID: 2205047224278741374}
   - component: {fileID: 917689391020130219}
-  - component: {fileID: 4540123789564369977}
   m_Layer: 0
   m_Name: Roller Coaster Wheel.017
   m_TagString: Untagged
@@ -221,6 +198,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.118856475, y: 0.10291046, z: 0.000000016766242}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5631396081987627695}
   m_RootOrder: 3
@@ -244,10 +222,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -272,20 +252,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &4540123789564369977
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6280240780962148445}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6271984376174505794, guid: 0b8f6af10896eee4dbc53ab5e9000336, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6615436817672644834
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,7 +264,6 @@ GameObject:
   - component: {fileID: 1257315102389328876}
   - component: {fileID: 4198147114689460372}
   - component: {fileID: 5779734488803106592}
-  - component: {fileID: 2781678349454654343}
   m_Layer: 0
   m_Name: Roller Coaster Handrail.005
   m_TagString: Untagged
@@ -315,6 +281,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.06027341, y: 0.31869417, z: 0.00000005192187}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5631396081987627695}
   m_RootOrder: 0
@@ -338,10 +305,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -366,20 +335,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &2781678349454654343
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6615436817672644834}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2041152109346122625, guid: 0b8f6af10896eee4dbc53ab5e9000336, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8913369302200126939
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,7 +347,6 @@ GameObject:
   - component: {fileID: 1339397501670636396}
   - component: {fileID: 8289399341044416982}
   - component: {fileID: 7436065858026795040}
-  - component: {fileID: 8553308441122645519}
   m_Layer: 0
   m_Name: Roller Coaster Wheel.015
   m_TagString: Untagged
@@ -409,6 +364,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.956921, y: 0.10291046, z: 0.000000016766242}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5631396081987627695}
   m_RootOrder: 1
@@ -432,10 +388,12 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -460,17 +418,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &8553308441122645519
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913369302200126939}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 929796334247795359, guid: 0b8f6af10896eee4dbc53ab5e9000336, type: 3}
+  m_AdditionalVertexStreams: {fileID: 0}

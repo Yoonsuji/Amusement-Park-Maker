@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4996121949879911170}
   - component: {fileID: 8440958449881965040}
   - component: {fileID: 1595059503027716739}
-  - component: {fileID: 1223775208443650953}
   m_Layer: 0
   m_Name: Sea Swing Attraction.001
   m_TagString: Untagged
@@ -84,20 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1223775208443650953
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8118209997556164842}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6945940367765986571, guid: e79d6e9ca46fbb64f99034963cd276c6, type: 3}
 --- !u!1 &9183050033678744098
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,9 +94,9 @@ GameObject:
   - component: {fileID: 8375411036907315352}
   - component: {fileID: 4869715437890318141}
   - component: {fileID: 7237358449835695095}
-  - component: {fileID: 537775326296859968}
-  - component: {fileID: 7127240183007324123}
   - component: {fileID: 285284979092453143}
+  - component: {fileID: 7958111887139552504}
+  - component: {fileID: 4027973478923374671}
   m_Layer: 0
   m_Name: Sea Swing Attraction
   m_TagString: Object_1
@@ -185,21 +170,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &537775326296859968
-MeshCollider:
+--- !u!65 &285284979092453143
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9183050033678744098}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7789551011553691945, guid: e79d6e9ca46fbb64f99034963cd276c6, type: 3}
---- !u!54 &7127240183007324123
+  serializedVersion: 2
+  m_Size: {x: 5.697992, y: 6.146439, z: 1.859468}
+  m_Center: {x: 0, y: 3.0732195, z: 0}
+--- !u!114 &7958111887139552504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9183050033678744098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409bdda4ce34a6b4ebe77ba91e657fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &4027973478923374671
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,21 +206,8 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &285284979092453143
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9183050033678744098}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.697992, y: 6.146439, z: 1.859468}
-  m_Center: {x: 0, y: 3.0732195, z: 0}
