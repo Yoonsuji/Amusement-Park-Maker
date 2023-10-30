@@ -10,6 +10,7 @@ TagManager:
   - waypoint
   - Ground
   - Object_1
+  - Event
   layers:
   - Default
   - TransparentFX
