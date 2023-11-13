@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public Text scoreText;
-    private int score = 0;
+    public int score = 0;
+
     // Start is called before the first frame update
 
     private void Start()
@@ -26,4 +27,5 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = "" + score;
     }
+
 }
