@@ -54,6 +54,7 @@ public class SaveManager : MonoBehaviour
         else
         {
             Debug.Log("코인부족");
+            
         }
     }
 }
