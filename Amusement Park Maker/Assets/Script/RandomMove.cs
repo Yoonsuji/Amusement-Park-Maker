@@ -6,33 +6,24 @@ using UnityEngine.AI;
 public class RandomMove : MonoBehaviour
 {
     private NavMeshAgent agent;
-    private Vector3 destination;
+    public Transform targerObject;
 
-    public float minWalkDistance = 5f;
-    public float maxWalkDistance = 20f;
-
-    void Start()
+    private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        SetRandomDestination();
-    }
 
-    void SetRandomDestination()
-    {
-        float randomDistance = Random.Range(minWalkDistance, maxWalkDistance);
-        Vector3 randomDirection = Random.insideUnitSphere * randomDistance;
-        randomDirection += transform.position;
-        NavMeshHit hit;
-        NavMesh.SamplePosition(randomDirection, out hit, randomDistance, 1);
-        destination = hit.position;
-        agent.SetDestination(destination);
-    }
-
-    void Update()
-    {
-        if (!agent.pathPending && agent.remainingDistance < 0.5f)
+        if(targerObject != null )
         {
-            SetRandomDestination();
+            Debug.LogError("목표 물체 없음");
         }
+        else
+        {
+            MoveToTarget();
+        }
+    }
+
+    void MoveToTarget()
+    {
+        agent.SetDestination(targerObject.position);
     }
 }
