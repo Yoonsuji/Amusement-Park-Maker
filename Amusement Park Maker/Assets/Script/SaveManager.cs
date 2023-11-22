@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SaveManager : MonoBehaviour
 {
-    public int[,] shopItems = new int[21,21];
+    public int[,] shopItems = new int[26,26];
     public float coins;
     public Text coinsTXT;
 
@@ -38,6 +38,11 @@ public class SaveManager : MonoBehaviour
         shopItems[1, 18] = 18;
         shopItems[1, 19] = 19;
         shopItems[1, 20] = 20;
+        shopItems[1, 21] = 21;
+        shopItems[1, 22] = 22;
+        shopItems[1, 23] = 23;
+        shopItems[1, 24] = 24;
+        shopItems[1, 25] = 25;
 
         //Price
         shopItems[2, 1] = 500;
@@ -49,8 +54,8 @@ public class SaveManager : MonoBehaviour
         shopItems[2, 7] = 100;
         shopItems[2, 8] = 100;
         shopItems[2, 9] = 100;
-        shopItems[2, 10] = 100;
-        shopItems[2, 11] = 100;
+        shopItems[2, 10] = 200;
+        shopItems[2, 11] = 200;
         shopItems[2, 12] = 100;
         shopItems[2, 13] = 100;
         shopItems[2, 14] = 100;
@@ -60,6 +65,11 @@ public class SaveManager : MonoBehaviour
         shopItems[2, 18] = 100;
         shopItems[2, 19] = 100;
         shopItems[2, 20] = 100;
+        shopItems[2, 21] = 100;
+        shopItems[2, 22] = 100;
+        shopItems[2, 23] = 100;
+        shopItems[2, 24] = 100;
+        shopItems[2, 25] = 100;
 
         //Quantity
         shopItems[3, 1] = 0;
@@ -82,8 +92,11 @@ public class SaveManager : MonoBehaviour
         shopItems[3, 18] = 0;
         shopItems[3, 19] = 0;
         shopItems[3, 20] = 0;
-
-
+        shopItems[3, 21] = 0;
+        shopItems[3, 22] = 0;
+        shopItems[3, 23] = 0;
+        shopItems[3, 24] = 0;
+        shopItems[3, 25] = 0;
 
     }
 

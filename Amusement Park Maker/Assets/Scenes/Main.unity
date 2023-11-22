@@ -15,18 +15,18 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
-  m_FogDensity: 0.01
-  m_LinearFogStart: 0
-  m_LinearFogEnd: 300
+  m_FogColor: {r: 1, g: 1, b: 1, a: 0.38431373}
+  m_FogMode: 2
+  m_FogDensity: 0.0001
+  m_LinearFogStart: 20
+  m_LinearFogEnd: 40
   m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 1, g: 0.8632076, b: 0.8632076, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 70d29ee1db5e5514dbf23cad11cfc90f, type: 2}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.31567454, g: 0.44314414, b: 0.6850522, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: a9b390065f313064287fc44f1b91de20, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 87c277b21a7250b4b80270c111d56995, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1004,7 +1004,7 @@ GameObject:
   - component: {fileID: 183761167}
   - component: {fileID: 183761166}
   m_Layer: 5
-  m_Name: Tree Small (18)
+  m_Name: Foodtruck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 24
   PirceText: {fileID: 1638274679}
   QuantityTxt: {fileID: 1823801712}
   SaveManager: {fileID: 1414995491}
@@ -1099,7 +1099,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 18
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd3548e2839c81747a3a87175747f5ae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1336,10 +1336,10 @@ RectTransform:
   m_Father: {fileID: 822461328}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.25}
+  m_AnchorMin: {x: 1, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 203.9}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -77.50002, y: 203.9}
+  m_SizeDelta: {x: 155, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &213729484
 GameObject:
@@ -2580,6 +2580,53 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &439539627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439539629}
+  - component: {fileID: 439539628}
+  m_Layer: 0
+  m_Name: Scence Management
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &439539628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439539627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f446760dbd4e1444a246452db835ce3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirectionalLight: {fileID: 705507994}
+  Preset: {fileID: 11400000, guid: 4d91f0cfa9c0305449fd0a9df27592ce, type: 2}
+  TimeOfDay: 5.7
+--- !u!4 &439539629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439539627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 512.3432, y: -59.773666, z: 210.48254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &441066302
 GameObject:
   m_ObjectHideFlags: 0
@@ -2694,9 +2741,9 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
-  m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 203.9}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 201.4}
+  m_SizeDelta: {x: 0, y: -5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449299607
 MonoBehaviour:
@@ -2830,7 +2877,7 @@ GameObject:
   - component: {fileID: 465506586}
   - component: {fileID: 465506585}
   m_Layer: 5
-  m_Name: Tree Small (7)
+  m_Name: Palm A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2870,7 +2917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 13
   PirceText: {fileID: 1380737210}
   QuantityTxt: {fileID: 350779398}
   SaveManager: {fileID: 1414995491}
@@ -2925,7 +2972,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 7
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2962,7 +3009,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 88147d37c105729418d7ca26bc0fd0b4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3472,7 +3519,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 200
 --- !u!222 &603993204
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3720,7 +3767,7 @@ GameObject:
   - component: {fileID: 688037583}
   - component: {fileID: 688037582}
   m_Layer: 5
-  m_Name: Tree Small (13)
+  m_Name: Light Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3760,7 +3807,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 19
   PirceText: {fileID: 454412472}
   QuantityTxt: {fileID: 800210254}
   SaveManager: {fileID: 1414995491}
@@ -3815,7 +3862,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 13
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3852,7 +3899,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e96f93510a8b4fc4c859b94ae9cb40ea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3898,7 +3945,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.9152094, b: 0.6839622, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -3957,7 +4004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 529, y: 565, z: -239}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3978,7 +4025,7 @@ GameObject:
   - component: {fileID: 720709004}
   - component: {fileID: 720709003}
   m_Layer: 5
-  m_Name: Tree Small (5)
+  m_Name: Rocket Enter Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4018,7 +4065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 11
   PirceText: {fileID: 603993203}
   QuantityTxt: {fileID: 111620001}
   SaveManager: {fileID: 1414995491}
@@ -4073,7 +4120,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 5
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4110,7 +4157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfe65fc7021322c429cc819d3bba1e06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4142,7 +4189,7 @@ GameObject:
   - component: {fileID: 736762562}
   - component: {fileID: 736762561}
   m_Layer: 5
-  m_Name: Tree Small (14)
+  m_Name: Island
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4182,7 +4229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 20
   PirceText: {fileID: 61223018}
   QuantityTxt: {fileID: 1950882673}
   SaveManager: {fileID: 1414995491}
@@ -4237,7 +4284,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 14
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4274,7 +4321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 677a53ec5a51669419828d57a8d8fb25, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5033,7 +5080,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.12
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5811,6 +5858,37 @@ Transform:
   m_Father: {fileID: 1049690481}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!1 &997766542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997766543}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &997766543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997766542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 122.1, y: 0, z: 25.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1049690477
 GameObject:
   m_ObjectHideFlags: 0
@@ -6153,7 +6231,7 @@ GameObject:
   - component: {fileID: 1077861525}
   - component: {fileID: 1077861524}
   m_Layer: 5
-  m_Name: Tree Small (2)
+  m_Name: Teddy Bear Braun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6193,7 +6271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 8
   PirceText: {fileID: 33687566}
   QuantityTxt: {fileID: 531209942}
   SaveManager: {fileID: 1414995491}
@@ -6248,7 +6326,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6285,7 +6363,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7e4bb24c2441cf24685aa54aed160fd3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6683,6 +6761,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1208766921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208766923}
+  - component: {fileID: 1208766922}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1208766922
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208766921}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1208766923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208766921}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 132.6112, y: 373.0608, z: -390.85242}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1223716468
 GameObject:
   m_ObjectHideFlags: 0
@@ -6697,7 +6869,7 @@ GameObject:
   - component: {fileID: 1223716471}
   - component: {fileID: 1223716470}
   m_Layer: 5
-  m_Name: Tree Small (4)
+  m_Name: Teapot Enter Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6737,7 +6909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 10
   PirceText: {fileID: 1844866057}
   QuantityTxt: {fileID: 1376942607}
   SaveManager: {fileID: 1414995491}
@@ -6792,7 +6964,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6829,7 +7001,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9186578b94aae2d4f8c5467697efde61, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6941,7 +7113,7 @@ GameObject:
   - component: {fileID: 1263949106}
   - component: {fileID: 1263949105}
   m_Layer: 5
-  m_Name: Tree Small (9)
+  m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6981,7 +7153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 15
   PirceText: {fileID: 93800102}
   QuantityTxt: {fileID: 2063166435}
   SaveManager: {fileID: 1414995491}
@@ -7036,7 +7208,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7073,7 +7245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e999fc970dce464478cd71dc4d7969f4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7190,7 +7362,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1308841958
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7620,8 +7792,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 73.61649, y: 0}
-  m_SizeDelta: {x: 157.233, y: 0}
+  m_AnchoredPosition: {x: -3.3748, y: 0}
+  m_SizeDelta: {x: 3.2509, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1333659199
 MonoBehaviour:
@@ -8361,7 +8533,7 @@ GameObject:
   - component: {fileID: 1424083445}
   - component: {fileID: 1424083444}
   m_Layer: 5
-  m_Name: Tree Small (3)
+  m_Name: Teddy Bear Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8401,7 +8573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 9
   PirceText: {fileID: 170466022}
   QuantityTxt: {fileID: 1269486480}
   SaveManager: {fileID: 1414995491}
@@ -8456,7 +8628,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8493,7 +8665,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c9f13583e71e5c47ab2d1983623733f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8525,7 +8697,7 @@ GameObject:
   - component: {fileID: 1506114741}
   - component: {fileID: 1506114740}
   m_Layer: 5
-  m_Name: Tree Small (12)
+  m_Name: Mushroom House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8565,7 +8737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 18
   PirceText: {fileID: 1814059514}
   QuantityTxt: {fileID: 1388725939}
   SaveManager: {fileID: 1414995491}
@@ -8620,7 +8792,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8657,7 +8829,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e30927671d017a41ae18da268193579, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8765,7 +8937,7 @@ GameObject:
   - component: {fileID: 1536582356}
   - component: {fileID: 1536582355}
   m_Layer: 5
-  m_Name: Tree Small (1)
+  m_Name: Teddy Bear Pink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8805,7 +8977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 7
   PirceText: {fileID: 1229345183}
   QuantityTxt: {fileID: 441066304}
   SaveManager: {fileID: 1414995491}
@@ -8860,7 +9032,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8897,7 +9069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fcb37bd2469da674dbea180db018ff9e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9419,7 +9591,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!223 &1603775719
 Canvas:
   m_ObjectHideFlags: 0
@@ -9526,7 +9698,7 @@ GameObject:
   - component: {fileID: 1630086781}
   - component: {fileID: 1630086780}
   m_Layer: 5
-  m_Name: Tree Small (10)
+  m_Name: Ticket Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9566,7 +9738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 16
   PirceText: {fileID: 531244215}
   QuantityTxt: {fileID: 407698347}
   SaveManager: {fileID: 1414995491}
@@ -9621,7 +9793,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9658,7 +9830,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1468ada9dda26a849b6ddf03d0caa661, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9994,6 +10166,100 @@ RectTransform:
   m_AnchoredPosition: {x: -204.6, y: -42.3}
   m_SizeDelta: {x: 263.1255, y: 84.4741}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1674054136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1674054138}
+  - component: {fileID: 1674054137}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1674054137
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674054136}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1674054138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674054136}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 132.6112, y: 373.0608, z: -390.85242}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675927753
 GameObject:
   m_ObjectHideFlags: 0
@@ -10168,7 +10434,7 @@ GameObject:
   - component: {fileID: 1710300921}
   - component: {fileID: 1710300920}
   m_Layer: 5
-  m_Name: Tree Small (19)
+  m_Name: Fishin House Fish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10208,7 +10474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 25
   PirceText: {fileID: 2102578562}
   QuantityTxt: {fileID: 1543167131}
   SaveManager: {fileID: 1414995491}
@@ -10263,7 +10529,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 19
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10300,7 +10566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b116e9325521f746bc0ba2bd485fe6c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10332,7 +10598,7 @@ GameObject:
   - component: {fileID: 1710472610}
   - component: {fileID: 1710472609}
   m_Layer: 5
-  m_Name: Tree Small (6)
+  m_Name: Refrigirator Drinks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10427,7 +10693,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -10464,7 +10730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8cccae2ec1f9e4b46ad10a5f0189fb5c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10978,7 +11244,7 @@ GameObject:
   - component: {fileID: 1788754599}
   - component: {fileID: 1788754598}
   m_Layer: 5
-  m_Name: Tree Small (11)
+  m_Name: Wheel Enter Office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11018,7 +11284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 17
   PirceText: {fileID: 69160008}
   QuantityTxt: {fileID: 1678536122}
   SaveManager: {fileID: 1414995491}
@@ -11073,7 +11339,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11110,7 +11376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38749a17a7e7f604dbda38d35f1224d8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11325,6 +11591,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814059512}
   m_CullTransparentMesh: 1
+--- !u!1 &1820830293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1820830295}
+  - component: {fileID: 1820830294}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1820830294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820830293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84f72dc6785f984aa232824cbec0329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 997766543}
+  customerPrefabs:
+  - {fileID: 7831437789788882960, guid: eaaeefb6224b5e14aab29aeb2803c519, type: 3}
+  - {fileID: 7571845595269368221, guid: dae6440730d95674fa7bc5dc69728c61, type: 3}
+  - {fileID: 6524106079475335478, guid: 7a208cc55ade7b2489bfaeaf605887f6, type: 3}
+  - {fileID: 4263058173423512617, guid: 2aa72b9b1ac682149be672f5bdad84cb, type: 3}
+  - {fileID: 2262163548693407535, guid: 711ed3a5b4d457747b9b8b65348e3e3e, type: 3}
+  - {fileID: 5216449074306469949, guid: c2893147cc8934148b9c41d40c51c7dd, type: 3}
+  - {fileID: 5472667526547632878, guid: b2ef1b85704e5af4d8d9ec8f8bc12cd5, type: 3}
+  - {fileID: 2234199837510723228, guid: 3bb49aef8375dbe4aa1358662c749a23, type: 3}
+  - {fileID: 8447277129486828672, guid: 9a855dec10bb14b4e941b66019ea99c4, type: 3}
+  - {fileID: 1417085245292725190, guid: fd740ae57372a1544a6412bc59c0867e, type: 3}
+  - {fileID: 1248978997052548985, guid: d8c192a34dc4d4844b40f6a17abedcf5, type: 3}
+  - {fileID: 7263642113354571334, guid: 053656b9c106e5645a87e88b1addad53, type: 3}
+  initialSpawnDelay: 2
+  minSpawnDelay: 1
+  maxSpawnDelay: 2
+  scoreManager: {fileID: 1908970048}
+--- !u!4 &1820830295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820830293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1823608309
 GameObject:
   m_ObjectHideFlags: 0
@@ -11583,7 +11911,7 @@ GameObject:
   - component: {fileID: 1835972526}
   - component: {fileID: 1835972525}
   m_Layer: 5
-  m_Name: Tree Small (8)
+  m_Name: Houses Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11623,7 +11951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 14
   PirceText: {fileID: 1391683897}
   QuantityTxt: {fileID: 1675927755}
   SaveManager: {fileID: 1414995491}
@@ -11678,7 +12006,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11715,7 +12043,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f87ea9ebc1217a4fa037f8997aac2da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11804,7 +12132,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 200
 --- !u!222 &1844866058
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12209,7 +12537,7 @@ GameObject:
   - component: {fileID: 1915104324}
   - component: {fileID: 1915104323}
   m_Layer: 5
-  m_Name: Tree Small (17)
+  m_Name: Foodtruck Coffee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12249,7 +12577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 23
   PirceText: {fileID: 602047480}
   QuantityTxt: {fileID: 1729642508}
   SaveManager: {fileID: 1414995491}
@@ -12304,7 +12632,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 17
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12341,7 +12669,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 85a7665ac16ab264b9702a8284616257, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12377,7 +12705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1932413674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12554,7 +12882,7 @@ GameObject:
   - component: {fileID: 1971274491}
   - component: {fileID: 1971274490}
   m_Layer: 5
-  m_Name: Tree Small (16)
+  m_Name: Foodtruck Icecream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12594,7 +12922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 22
   PirceText: {fileID: 1119192173}
   QuantityTxt: {fileID: 1728614546}
   SaveManager: {fileID: 1414995491}
@@ -12649,7 +12977,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 16
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12686,7 +13014,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7785677899b30de439ec052637196d74, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12978,7 +13306,7 @@ GameObject:
   - component: {fileID: 2075127395}
   - component: {fileID: 2075127394}
   m_Layer: 5
-  m_Name: Tree Small (15)
+  m_Name: Foodtruck Hotdog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13018,7 +13346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2143f7e509790cc4ba27533f5f807a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ItemID: 6
+  ItemID: 21
   PirceText: {fileID: 366454383}
   QuantityTxt: {fileID: 922233908}
   SaveManager: {fileID: 1414995491}
@@ -13073,7 +13401,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 15
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -13110,7 +13438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4be0ca251efbd0f499727ab753801a03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b3324199c40eb8458c17a5794312ff8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13460,7 +13788,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 4
@@ -14579,7 +14907,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6084877415902695187}
   - component: {fileID: 6084877415895244955}
-  - component: {fileID: 6084877415902695188}
   - component: {fileID: 6084877415902695189}
   - component: {fileID: 6084877415902695190}
   m_Layer: 0
@@ -15362,18 +15689,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6084877415902695188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6084877415902532339}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d4d818dacee269409c2797f46c852b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6084877415902695189
 MonoBehaviour:
   m_ObjectHideFlags: 0
