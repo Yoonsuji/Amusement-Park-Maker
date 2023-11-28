@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2604229226386341176}
   - component: {fileID: -6785836048287819467}
   - component: {fileID: 6874913583382115518}
+  - component: {fileID: 5532720355734041000}
   m_Layer: 0
   m_Name: 'Foodtruck '
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,6 +131,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.156655, y: 3.4680948, z: 4.735925}
   m_Center: {x: -0.45209336, y: 1.7340474, z: -0.6604333}
+--- !u!208 &5532720355734041000
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133099882220564018}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.578, y: 1.7340001, z: 2.368}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.45200002, y: 1.7340001, z: -0.66}
+  m_TimeToStationary: 0.5
 --- !u!1 &4731874928891735943
 GameObject:
   m_ObjectHideFlags: 0

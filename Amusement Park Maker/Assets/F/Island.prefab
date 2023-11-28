@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5250522962090005510}
   - component: {fileID: 7724982685131060648}
   - component: {fileID: 9113030005893207241}
+  - component: {fileID: -916618301153733824}
   m_Layer: 0
   m_Name: Island
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,3 +129,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!208 &-916618301153733824
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740655744510234292}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.939, y: 5.144, z: 8.468}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.37, y: 5.059, z: -0.44700003}
+  m_TimeToStationary: 0.5

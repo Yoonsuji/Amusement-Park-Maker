@@ -11,6 +11,7 @@ TagManager:
   - Ground
   - Object_1
   - Event
+  - Object
   layers:
   - Default
   - TransparentFX

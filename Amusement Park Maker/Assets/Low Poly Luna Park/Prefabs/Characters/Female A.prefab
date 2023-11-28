@@ -1974,11 +1974,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5891156111706839948}
   - component: {fileID: 1030181764276973270}
-  - component: {fileID: 8712129787408675481}
   - component: {fileID: -3078593214817119565}
+  - component: {fileID: -7276287439693180841}
+  - component: {fileID: -4851564449698685801}
   m_Layer: 0
   m_Name: Female A
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2017,19 +2018,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!114 &8712129787408675481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6524106079475335478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f689091a5b97a8a46ae0e318936bdaf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targerObject: {fileID: 0}
 --- !u!54 &-3078593214817119565
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2041,11 +2029,46 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-7276287439693180841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524106079475335478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f689091a5b97a8a46ae0e318936bdaf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateInterval: 3
+--- !u!195 &-4851564449698685801
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6524106079475335478}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &6588198030150401302
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 2832063053470034941}
   - component: {fileID: 9108462997119558190}
   - component: {fileID: 949352358854084181}
+  - component: {fileID: -4005298231199151954}
   m_Layer: 0
   m_Name: Rocket Enter Office
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,3 +128,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!208 &-4005298231199151954
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161204119953674093}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.75500005, y: 1.562, z: 0.91400003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.575, z: 0.342}
+  m_TimeToStationary: 0.5

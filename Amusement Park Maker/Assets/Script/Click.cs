@@ -16,7 +16,6 @@ public class Click : MonoBehaviour
 
     public void OnButtonClick()
     {
-        main.enabled = false;
         shop.enabled = true;
     }
 }

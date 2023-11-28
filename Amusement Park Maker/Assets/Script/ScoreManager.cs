@@ -8,7 +8,8 @@ public class ScoreManager : MonoBehaviour
 {
     public Text scoreText;
     public int score = 0;
-
+    public static ScoreManager Instance { get; private set; }
+    public int Score { get; private set; }
     // Start is called before the first frame update
 
     private void Start()
@@ -28,4 +29,16 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = "" + score;
     }
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+    }
 }

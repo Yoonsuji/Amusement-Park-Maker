@@ -8,6 +8,7 @@ public class LatterClick : MonoBehaviour
     public GameObject Latter2;
     public GameObject Latter3;
     public GameObject Latter4;
+    public GameObject Latter5;
     private ScoreManager scoreManager;
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,7 @@ public class LatterClick : MonoBehaviour
         Latter2.SetActive(false);
         Latter3.SetActive(false);
         Latter4.SetActive(false);
+        Latter5.SetActive(false);
         scoreManager = GameObject.Find("ScoreSystem").GetComponent<ScoreManager>();
     }
 
@@ -38,6 +40,10 @@ public class LatterClick : MonoBehaviour
         if (scoreManager != null && scoreManager.score == 32)
         {
             Latter4.SetActive(true);
+        }
+        if (scoreManager != null && scoreManager.score == 40)
+        {
+            Latter5.SetActive(true);
         }
     }
 

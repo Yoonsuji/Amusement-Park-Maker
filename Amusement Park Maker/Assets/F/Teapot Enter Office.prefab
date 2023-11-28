@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 3802734348788912441}
   - component: {fileID: 6813033054211399785}
   - component: {fileID: 4909952657175977374}
+  - component: {fileID: -7290751285259469006}
   m_Layer: 0
   m_Name: Teapot Enter Office
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,3 +128,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5109715, y: 3.1243339, z: 1.827182}
   m_Center: {x: 0.0001487732, y: 1.575439, z: 0.34201303}
+--- !u!208 &-7290751285259469006
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2148669784180747871}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.75500005, y: 1.562, z: 0.91400003}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 1.575, z: 0.342}
+  m_TimeToStationary: 0.5

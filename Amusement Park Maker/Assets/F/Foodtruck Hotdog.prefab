@@ -182,9 +182,10 @@ GameObject:
   - component: {fileID: 1776358511085709582}
   - component: {fileID: 8246328430861000281}
   - component: {fileID: 4486161872419201634}
+  - component: {fileID: -777722720204565468}
   m_Layer: 0
   m_Name: Foodtruck Hotdog
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -298,3 +299,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 7.156655, y: 5.2213764, z: 4.735925}
   m_Center: {x: -0.45209336, y: 2.6106882, z: -0.6604333}
+--- !u!208 &-777722720204565468
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000476323589419701}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.578, y: 2.611, z: 2.368}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.45200002, y: 2.611, z: -0.66}
+  m_TimeToStationary: 0.5

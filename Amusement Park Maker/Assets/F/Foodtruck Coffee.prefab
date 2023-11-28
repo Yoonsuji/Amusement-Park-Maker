@@ -182,9 +182,10 @@ GameObject:
   - component: {fileID: 3243868444648828453}
   - component: {fileID: 7500195048700115007}
   - component: {fileID: 3094275007949422368}
+  - component: {fileID: -2325968428500569508}
   m_Layer: 0
   m_Name: Foodtruck Coffee
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -298,3 +299,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219a6251d846e4e45a6f33b1f06f07f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &-2325968428500569508
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9191133168355346808}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.578, y: 3.3460002, z: 2.368}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.45200002, y: 3.3460002, z: -0.66}
+  m_TimeToStationary: 0.5

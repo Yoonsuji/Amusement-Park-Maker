@@ -97,9 +97,10 @@ GameObject:
   - component: {fileID: -5951251211507841880}
   - component: {fileID: 4750304595735669115}
   - component: {fileID: 2663165528811197937}
+  - component: {fileID: 1034400073343084243}
   m_Layer: 0
   m_Name: Atraction Rocket
-  m_TagString: Object_1
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,6 +165,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 409bdda4ce34a6b4ebe77ba91e657fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &1034400073343084243
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104213377527791449}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1328321579438997181
 GameObject:
   m_ObjectHideFlags: 0

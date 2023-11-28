@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4512532476850792970}
   - component: {fileID: 7559308400392036351}
   - component: {fileID: 1661892949310589543}
+  - component: {fileID: 3437202415927656661}
   m_Layer: 0
   m_Name: Palm A
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,3 +129,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219a6251d846e4e45a6f33b1f06f07f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!208 &3437202415927656661
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2171350131678018423}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.193, y: 7.3570004, z: 4.039}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.032, y: 7.3250003, z: -0.24300002}
+  m_TimeToStationary: 0.5
