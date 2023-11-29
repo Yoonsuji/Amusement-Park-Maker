@@ -109,7 +109,6 @@ GameObject:
   - component: {fileID: 2476963118808298612}
   - component: {fileID: 6539200535407370855}
   - component: {fileID: 7857768299927755750}
-  - component: {fileID: -3982313411889074094}
   - component: {fileID: 6157776156178146683}
   m_Layer: 0
   m_Name: 'Ferris Wheel '
@@ -226,20 +225,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 409bdda4ce34a6b4ebe77ba91e657fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-3982313411889074094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2802770335671061547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c938cee663b598342b50d0f3cf137446, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectTag: Object
-  slider: {fileID: 0}
 --- !u!208 &6157776156178146683
 NavMeshObstacle:
   m_ObjectHideFlags: 0

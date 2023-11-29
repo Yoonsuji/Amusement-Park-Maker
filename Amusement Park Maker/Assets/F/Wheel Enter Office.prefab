@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2428731501472782097}
   - component: {fileID: 8570896526213985815}
   - component: {fileID: -4482165014763662380}
+  - component: {fileID: 4875117383202498688}
   m_Layer: 0
   m_Name: Wheel Enter Office
   m_TagString: Object
@@ -93,10 +94,10 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4230122631228667588}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7081576809510333406, guid: d1fb14d5323e22c48a252ef365606d8b, type: 3}
 --- !u!208 &-4482165014763662380
@@ -115,3 +116,19 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 1.575, z: 0.342}
   m_TimeToStationary: 0.5
+--- !u!54 &4875117383202498688
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230122631228667588}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

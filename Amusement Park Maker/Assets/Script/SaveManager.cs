@@ -14,7 +14,7 @@ public class SaveManager : MonoBehaviour
     void Start()
     {
 
-        InvokeRepeating("IncreaseCoins", 5f, 5f);
+        InvokeRepeating("IncreaseCoins", 8f, 8f);
         coinsTXT.text = "" + coins.ToString();
 
         //ID
