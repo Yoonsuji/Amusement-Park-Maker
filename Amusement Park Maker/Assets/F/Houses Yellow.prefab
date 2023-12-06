@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 8752943125083715513}
   - component: {fileID: 5681124838907901980}
   - component: {fileID: 7580578214742854870}
-  - component: {fileID: 7563139667476729157}
   - component: {fileID: 6412618488850336740}
   - component: {fileID: 4705266341607048718}
   - component: {fileID: -8140910269770090903}
+  - component: {fileID: 2259519847899823985}
   m_Layer: 0
   m_Name: Houses Yellow
   m_TagString: Object
@@ -88,20 +88,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7563139667476729157
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8229030660006718723}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3046839360313622259, guid: 6dcf2b07ca37257449eabccb1c1699a5, type: 3}
 --- !u!54 &6412618488850336740
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -146,3 +132,16 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 2.8530002, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &2259519847899823985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8229030660006718723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.0483947, y: 5.7053847, z: 4.048395}
+  m_Center: {x: 0, y: 2.852692, z: 0.00000059604645}

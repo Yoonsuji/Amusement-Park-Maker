@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4806087369305252970}
   - component: {fileID: 8439039174755052495}
   - component: {fileID: 5978961863423139589}
-  - component: {fileID: 4316977657395727351}
   - component: {fileID: 8840795711987468279}
   - component: {fileID: 3540740230244583153}
   - component: {fileID: -7830379121059326793}
+  - component: {fileID: -8558708902591534546}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Object
@@ -87,20 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4316977657395727351
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5330421733836865232}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 962209921104072034, guid: baae02bfe6db28849841452c7d01bab4, type: 3}
 --- !u!114 &8840795711987468279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,3 +131,16 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 2.391, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &-8558708902591534546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5330421733836865232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.1299615, y: 4.781121, z: 0.80396926}
+  m_Center: {x: 0.00000023841858, y: 2.3905604, z: 0}

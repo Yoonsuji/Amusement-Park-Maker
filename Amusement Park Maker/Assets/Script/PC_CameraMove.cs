@@ -27,7 +27,7 @@ public class PC_CameraMove : MonoBehaviour
     void Start()
     {
         instance = this;
-        if(followTransform != null)
+        if (followTransform != null)
         {
             transform.position = followTransform.position;
         }
@@ -36,8 +36,8 @@ public class PC_CameraMove : MonoBehaviour
             HandleMouseInput();
             HandleMovementInput();
         }
-        
-        if(Input.GetKeyDown(KeyCode.Escape))
+
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             followTransform = null;
         }
@@ -55,17 +55,17 @@ public class PC_CameraMove : MonoBehaviour
 
     void HandleMouseInput()
     {
-        if(Input.mouseScrollDelta.y != 0)
+        if (Input.mouseScrollDelta.y != 0)
         {
             newZoom += Input.mouseScrollDelta.y * zoomAmount;
         }
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Plane plane = new Plane(Vector3.up, Vector3.zero);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
             float entry;
-            if(plane.Raycast(ray, out entry))
+            if (plane.Raycast(ray, out entry))
             {
                 dragStartPosition = ray.GetPoint(entry);
             }
@@ -83,11 +83,11 @@ public class PC_CameraMove : MonoBehaviour
             }
         }
 
-        if(Input.GetMouseButtonDown(2))
+        if (Input.GetMouseButtonDown(2))
         {
             rotateStartPosition = Input.mousePosition;
         }
-        if(Input.GetMouseButton(2))
+        if (Input.GetMouseButton(2))
         {
             rotateCurrentPosition = Input.mousePosition;
 
@@ -101,7 +101,7 @@ public class PC_CameraMove : MonoBehaviour
 
     void HandleMovementInput()
     {
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             movementSpeed = fastSpeed;
         }
@@ -110,7 +110,7 @@ public class PC_CameraMove : MonoBehaviour
             movementSpeed = normalSpeed;
         }
 
-        if(Input.GetKey(KeyCode.W)|| Input.GetKey(KeyCode.UpArrow)) 
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             newPosition += (transform.forward * movementSpeed);
         }
@@ -130,15 +130,15 @@ public class PC_CameraMove : MonoBehaviour
         {
             newRotation *= Quaternion.Euler(Vector3.up * rotationAmount);
         }
-        if(Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.E))
         {
             newRotation *= Quaternion.Euler(Vector3.up * -rotationAmount);
         }
-        if(Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.R))
         {
             newZoom += zoomAmount;
         }
-        if(Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.F))
         {
             newZoom -= zoomAmount;
         }

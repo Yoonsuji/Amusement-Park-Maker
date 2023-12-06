@@ -74,7 +74,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4337963896206923814}
   - component: {fileID: 5813571210235378059}
-  - component: {fileID: 5416573890902904384}
+  - component: {fileID: 7436785390934177660}
   m_Layer: 0
   m_Name: Male.Instructor.001
   m_TagString: Untagged
@@ -202,8 +202,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00000020861626, y: -0.011338472, z: 0.044044167}
     m_Extent: {x: 0.78157043, y: 0.9094471, z: 0.20383406}
   m_DirtyAABB: 0
---- !u!64 &5416573890902904384
-MeshCollider:
+--- !u!65 &7436785390934177660
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -212,10 +212,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6686729, y: 1.9666989, z: 0.5656355}
+  m_Center: {x: -0.00000031367892, y: 0.929198, z: -0.02663673}
 --- !u!1 &558979278417471807
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,7 +351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1434467921812107780}
   - component: {fileID: 4885824530973102847}
-  - component: {fileID: 30237965689309260}
+  - component: {fileID: 8889100532893333476}
   m_Layer: 0
   m_Name: Male.Cap.Instructor.001
   m_TagString: Untagged
@@ -480,8 +479,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000007450581, y: 0.8733564, z: 0.011580646}
     m_Extent: {x: 0.09230961, y: 0.06895012, z: 0.15674129}
   m_DirtyAABB: 0
---- !u!64 &30237965689309260
-MeshCollider:
+--- !u!65 &8889100532893333476
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -490,10 +489,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.19708344, y: 0.16952641, z: 0.34384447}
+  m_Center: {x: -0.00000009688356, y: 1.8738008, z: 0.002720058}
 --- !u!1 &1132223150829358117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,7 +1588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4411581893189817599}
   - component: {fileID: 1202229822311205622}
-  - component: {fileID: 5879397311556389908}
+  - component: {fileID: 3776971843422571840}
   m_Layer: 0
   m_Name: Male.Cap.Instructor
   m_TagString: Untagged
@@ -1718,8 +1716,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000007450581, y: 0.8733564, z: 0.011580646}
     m_Extent: {x: 0.09230961, y: 0.06895012, z: 0.15674129}
   m_DirtyAABB: 0
---- !u!64 &5879397311556389908
-MeshCollider:
+--- !u!65 &3776971843422571840
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1728,10 +1726,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.19708344, y: 0.16952641, z: 0.34384447}
+  m_Center: {x: -0.00000009688356, y: 1.8738008, z: 0.002720058}
 --- !u!1 &6320378726167356891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,7 +1999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3972128156468081142}
   - component: {fileID: 2431078076530574539}
-  - component: {fileID: 7807318691119484751}
+  - component: {fileID: 8369173584355927041}
   m_Layer: 0
   m_Name: Male.Instructor
   m_TagString: Untagged
@@ -2130,8 +2127,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00000020861626, y: -0.011338472, z: 0.044044167}
     m_Extent: {x: 0.78157043, y: 0.9094471, z: 0.20383406}
   m_DirtyAABB: 0
---- !u!64 &7807318691119484751
-MeshCollider:
+--- !u!65 &8369173584355927041
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2140,10 +2137,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6686729, y: 1.9666989, z: 0.5656355}
+  m_Center: {x: -0.00000031367892, y: 0.929198, z: -0.02663673}
 --- !u!1 &7197247676844446686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,10 +2181,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8036238850472887548}
-  - component: {fileID: 2985390854124044781}
   - component: {fileID: -5286009048330957177}
   - component: {fileID: -2964233630805008827}
   - component: {fileID: -7047503933781241790}
+  - component: {fileID: 5670869880716764753}
   m_Layer: 0
   m_Name: Male Instructor
   m_TagString: Object
@@ -2216,20 +2212,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &2985390854124044781
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7263642113354571334}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &-5286009048330957177
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2281,6 +2263,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &5670869880716764753
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7263642113354571334}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5218664, z: 1}
+  m_Center: {x: 0, y: 0.23906681, z: 0}
 --- !u!1 &7371703279963567723
 GameObject:
   m_ObjectHideFlags: 0

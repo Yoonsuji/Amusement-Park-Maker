@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class SaveManager : MonoBehaviour
 {
-    public int[,] shopItems = new int[26,26];
+    public int[,] shopItems = new int[30,30];
     public float coins;
     public Text coinsTXT;
 
@@ -43,6 +43,10 @@ public class SaveManager : MonoBehaviour
         shopItems[1, 23] = 23;
         shopItems[1, 24] = 24;
         shopItems[1, 25] = 25;
+        shopItems[1, 26] = 26;
+        shopItems[1, 27] = 27;
+        shopItems[1, 28] = 28;
+        shopItems[1, 29] = 29;
 
         //Price
         shopItems[2, 1] = 500;
@@ -70,6 +74,10 @@ public class SaveManager : MonoBehaviour
         shopItems[2, 23] = 100;
         shopItems[2, 24] = 100;
         shopItems[2, 25] = 100;
+        shopItems[2, 26] = 100;
+        shopItems[2, 27] = 100;
+        shopItems[2, 28] = 100;
+        shopItems[2, 29] = 100;
 
         //Quantity
         shopItems[3, 1] = 0;
@@ -97,6 +105,10 @@ public class SaveManager : MonoBehaviour
         shopItems[3, 23] = 0;
         shopItems[3, 24] = 0;
         shopItems[3, 25] = 0;
+        shopItems[3, 26] = 0;
+        shopItems[3, 27] = 0;
+        shopItems[3, 28] = 0;
+        shopItems[3, 29] = 0;
 
     }
 

@@ -647,7 +647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8149497487292874073}
   - component: {fileID: 4849907087508544909}
-  - component: {fileID: 3700356115831492206}
+  - component: {fileID: 6280551829436915125}
   m_Layer: 0
   m_Name: Male
   m_TagString: Untagged
@@ -775,8 +775,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000008940697, y: -0.0093759, z: 0.039840065}
     m_Extent: {x: 0.81967735, y: 0.90748465, z: 0.20816168}
   m_DirtyAABB: 0
---- !u!64 &3700356115831492206
-MeshCollider:
+--- !u!65 &6280551829436915125
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -785,10 +785,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.7500322, y: 1.9631442, z: 0.5745703}
+  m_Center: {x: 0.0000000054910174, y: 0.9315921, z: -0.030972548}
 --- !u!1 &2234199837510723228
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,10 +797,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1462166050366798886}
-  - component: {fileID: 6563087533613715004}
   - component: {fileID: -1015309704350324868}
   - component: {fileID: 9061802230522856684}
   - component: {fileID: -2366641693598441582}
+  - component: {fileID: 1249562060425296945}
   m_Layer: 0
   m_Name: Male A
   m_TagString: Object
@@ -832,20 +831,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6563087533613715004
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2234199837510723228}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &-1015309704350324868
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -897,6 +882,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &1249562060425296945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2234199837510723228}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5270931, z: 1}
+  m_Center: {x: 0, y: 0.23645344, z: 0}
 --- !u!1 &2335568069293169335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,7 +1065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7749142569657368602}
   - component: {fileID: 1177901760575208516}
-  - component: {fileID: 6399231690148913624}
+  - component: {fileID: 4576837083106619383}
   m_Layer: 0
   m_Name: Male.Hair
   m_TagString: Untagged
@@ -1195,8 +1193,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0018390194, y: 0.82166874, z: -0.032166854}
     m_Extent: {x: 0.10006796, y: 0.08847654, z: 0.124918684}
   m_DirtyAABB: 0
---- !u!64 &6399231690148913624
-MeshCollider:
+--- !u!65 &4576837083106619383
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1205,10 +1203,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.21364771, y: 0.20652087, z: 0.2788804}
+  m_Center: {x: -0.0019632543, y: 1.8219113, z: -0.047609042}
 --- !u!1 &3377749096223571724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,7 +1440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6339371831949065689}
   - component: {fileID: 6653014409019410111}
-  - component: {fileID: 5789286226436949577}
+  - component: {fileID: 2270918515641585828}
   m_Layer: 0
   m_Name: Male.003.beard
   m_TagString: Untagged
@@ -1571,8 +1568,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0013284013, y: 0.61664784, z: 0.067976534}
     m_Extent: {x: 0.042912696, y: 0.038016558, z: 0.024040654}
   m_DirtyAABB: 0
---- !u!64 &5789286226436949577
-MeshCollider:
+--- !u!65 &2270918515641585828
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1581,10 +1578,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.091619715, y: 0.08445474, z: 0.05670423}
+  m_Center: {x: 0.0014179841, y: 1.5963142, z: 0.04423423}
 --- !u!1 &4592140067157397924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,7 +1985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3862101769532011249}
   - component: {fileID: 4174519450340187287}
-  - component: {fileID: 5753281587857293879}
+  - component: {fileID: 1529866498772140414}
   m_Layer: 0
   m_Name: Male.001
   m_TagString: Untagged
@@ -2117,8 +2113,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000008940697, y: -0.0093759, z: 0.039840065}
     m_Extent: {x: 0.81967735, y: 0.90748465, z: 0.20816168}
   m_DirtyAABB: 0
---- !u!64 &5753281587857293879
-MeshCollider:
+--- !u!65 &1529866498772140414
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2127,10 +2123,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.7500322, y: 1.9631442, z: 0.5745703}
+  m_Center: {x: 0.0000000054910174, y: 0.9315921, z: -0.030972548}
 --- !u!1 &5899090444047716232
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,7 +2718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1849882349650197930}
   - component: {fileID: 4843846993120810765}
-  - component: {fileID: 4576040039268640726}
+  - component: {fileID: 1426246510343001007}
   m_Layer: 0
   m_Name: Male.Hair.001
   m_TagString: Untagged
@@ -2851,8 +2846,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0018390194, y: 0.82166874, z: -0.032166854}
     m_Extent: {x: 0.10006796, y: 0.08847654, z: 0.124918684}
   m_DirtyAABB: 0
---- !u!64 &4576040039268640726
-MeshCollider:
+--- !u!65 &1426246510343001007
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2861,10 +2856,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.21364771, y: 0.20652087, z: 0.2788804}
+  m_Center: {x: -0.0019632543, y: 1.8219113, z: -0.047609042}
 --- !u!1 &8442932257943869343
 GameObject:
   m_ObjectHideFlags: 0
@@ -3004,7 +2998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648194908628290895}
   - component: {fileID: 1244079127036846734}
-  - component: {fileID: 3857996399460350351}
+  - component: {fileID: 155197854361539492}
   m_Layer: 0
   m_Name: Male.003
   m_TagString: Untagged
@@ -3132,8 +3126,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000008940697, y: -0.0093759, z: 0.039840065}
     m_Extent: {x: 0.81967735, y: 0.90748465, z: 0.20816168}
   m_DirtyAABB: 0
---- !u!64 &3857996399460350351
-MeshCollider:
+--- !u!65 &155197854361539492
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3142,10 +3136,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.7500322, y: 1.9631442, z: 0.5745703}
+  m_Center: {x: 0.0000000054910174, y: 0.9315921, z: -0.030972548}
 --- !u!1 &9025641606050274759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3188,7 +3181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7604360717130524176}
   - component: {fileID: 6310160243479159557}
-  - component: {fileID: 207519215095487986}
+  - component: {fileID: 1643251527141684096}
   m_Layer: 0
   m_Name: Male.003.Hair
   m_TagString: Untagged
@@ -3316,8 +3309,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00011026859, y: 0.8846627, z: -0.057782207}
     m_Extent: {x: 0.15046754, y: 0.1421929, z: 0.1724742}
   m_DirtyAABB: 0
---- !u!64 &207519215095487986
-MeshCollider:
+--- !u!65 &1643251527141684096
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3326,7 +3319,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.32125214, y: 0.32781678, z: 0.3879434}
+  m_Center: {x: 0.00011764127, y: 1.8908551, z: -0.07033878}

@@ -437,8 +437,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878498519565899868}
   m_LocalRotation: {x: 0.14857417, y: 0.016965562, z: -0.11834441, w: 0.98164785}
-  m_LocalPosition: {x: 0.000000008708448, y: 0.09776303, z: 3.72529e-10}
-  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_LocalPosition: {x: 0, y: 0.09776303, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5116656565031954390}
@@ -455,7 +455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3870085685536792086}
   - component: {fileID: 7497613919935075783}
-  - component: {fileID: 1363300753667653821}
+  - component: {fileID: 443848262230306849}
   m_Layer: 0
   m_Name: Child.Cap.002
   m_TagString: Untagged
@@ -583,8 +583,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 0.8387248, z: 0.014699236}
     m_Extent: {x: 0.10138094, y: 0.080127954, z: 0.1911236}
   m_DirtyAABB: 0
---- !u!64 &1363300753667653821
-MeshCollider:
+--- !u!65 &443848262230306849
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -593,10 +593,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.17649932, y: 0.16170341, z: 0.34141695}
+  m_Center: {x: -0.00000007295362, y: 1.8724332, z: 0.0017813407}
 --- !u!1 &2685110950288611020
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,7 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6915172246045897324}
   - component: {fileID: 2425868148062941689}
-  - component: {fileID: 4068803488167067925}
+  - component: {fileID: 7060593917412887711}
   m_Layer: 0
   m_Name: Child.Cap.001
   m_TagString: Untagged
@@ -766,8 +765,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: 0.83872503, z: 0.014699221}
     m_Extent: {x: 0.10138093, y: 0.080127954, z: 0.19112363}
   m_DirtyAABB: 0
---- !u!64 &4068803488167067925
-MeshCollider:
+--- !u!65 &7060593917412887711
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -776,10 +775,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.17649928, y: 0.16170338, z: 0.34141698}
+  m_Center: {x: -0.00000007295361, y: 1.872433, z: 0.0017813072}
 --- !u!1 &3270425894340441592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +1844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8896137808671132287}
   - component: {fileID: 2684340275732625828}
-  - component: {fileID: 8849224129813347600}
+  - component: {fileID: 3147900806121130514}
   m_Layer: 0
   m_Name: Root.Child.Boy.001
   m_TagString: Untagged
@@ -1974,8 +1972,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000014901161, y: 0.045203984, z: 0.010311633}
     m_Extent: {x: 0.63897693, y: 0.83158296, z: 0.1851989}
   m_DirtyAABB: 0
---- !u!64 &8849224129813347600
-MeshCollider:
+--- !u!65 &3147900806121130514
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1984,10 +1982,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.3642321, y: 1.798145, z: 0.5146864}
+  m_Center: {x: 0.000000076052686, y: 0.8508645, z: -0.05847799}
 --- !u!1 &7323646594026314100
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,10 +2219,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7486402607714374314}
-  - component: {fileID: 7664765338553821988}
   - component: {fileID: 1590315961769227650}
   - component: {fileID: -1920863113895374017}
   - component: {fileID: -4933746434183184782}
+  - component: {fileID: 3682830468257963590}
   m_Layer: 0
   m_Name: Child Boy
   m_TagString: Object
@@ -2253,20 +2250,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &7664765338553821988
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7831437789788882960}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &1590315961769227650
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2318,6 +2301,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &3682830468257963590
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7831437789788882960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5450906, z: 1}
+  m_Center: {x: 0, y: 0.22745469, z: 0}
 --- !u!1 &7839717606115389422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2614,7 +2610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7874147504957277335}
   - component: {fileID: 5284295758343802339}
-  - component: {fileID: 3648564029291353254}
+  - component: {fileID: 5050449739140779059}
   m_Layer: 0
   m_Name: Root.Child.Boy.002
   m_TagString: Untagged
@@ -2742,8 +2738,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00000011920929, y: 0.045203894, z: 0.010311633}
     m_Extent: {x: 0.63897675, y: 0.8315829, z: 0.1851989}
   m_DirtyAABB: 0
---- !u!64 &3648564029291353254
-MeshCollider:
+--- !u!65 &5050449739140779059
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2752,10 +2748,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.3642321, y: 1.7981453, z: 0.5146865}
+  m_Center: {x: 0.000000044238348, y: 0.8508646, z: -0.058477998}
 --- !u!1 &9055338797652280787
 GameObject:
   m_ObjectHideFlags: 0

@@ -202,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5563367201565916939}
   - component: {fileID: 8104691042181624000}
-  - component: {fileID: 4615482359086070276}
+  - component: {fileID: 3924592600800727326}
   m_Layer: 0
   m_Name: Female.Apron.001
   m_TagString: Untagged
@@ -330,8 +330,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 3.4924597e-10, y: 0.0004629579, z: 0.00020185369}
     m_Extent: {x: 0.0021245573, y: 0.0056092683, z: 0.0026346517}
   m_DirtyAABB: 0
---- !u!64 &4615482359086070276
-MeshCollider:
+--- !u!65 &3924592600800727326
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -340,10 +340,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.42491144, y: 1.2260273, z: 0.8274466}
+  m_Center: {x: -0.00000759447, y: 1.0247805, z: -0.008455008}
 --- !u!1 &927372891278075405
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8985391973144991437}
   - component: {fileID: 5022756882322841603}
-  - component: {fileID: 7575373035966616366}
+  - component: {fileID: 5960674257258125390}
   m_Layer: 0
   m_Name: Female.Cook
   m_TagString: Untagged
@@ -643,8 +642,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000056810677, y: -0.00028379355, z: 0.00043494673}
     m_Extent: {x: 0.008286705, y: 0.009399042, z: 0.003990508}
   m_DirtyAABB: 0
---- !u!64 &7575373035966616366
-MeshCollider:
+--- !u!65 &5960674257258125390
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -653,10 +652,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.657341, y: 2.0299537, z: 1.3052425}
+  m_Center: {x: -0.0000019483268, y: 0.94655764, z: -0.0076184236}
 --- !u!1 &1735166978381768801
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5109855242202218971}
   - component: {fileID: 5818592833516135808}
-  - component: {fileID: 5106909485608123222}
+  - component: {fileID: 6998420522406633555}
   m_Layer: 0
   m_Name: Female.Cook.001
   m_TagString: Untagged
@@ -859,8 +857,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000056810677, y: -0.00028379355, z: 0.00043494673}
     m_Extent: {x: 0.008286705, y: 0.009399042, z: 0.003990508}
   m_DirtyAABB: 0
---- !u!64 &5106909485608123222
-MeshCollider:
+--- !u!65 &6998420522406633555
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -869,10 +867,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.657341, y: 2.0299537, z: 1.3052425}
+  m_Center: {x: -0.0000019483268, y: 0.94655764, z: -0.0076184236}
 --- !u!1 &1977722841503892688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1807,7 +1804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6620898207383694961}
   - component: {fileID: 285973802182842182}
-  - component: {fileID: 5990225426463887907}
+  - component: {fileID: 1471504988549419909}
   m_Layer: 0
   m_Name: Female.Cap
   m_TagString: Untagged
@@ -1935,8 +1932,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00013926276, y: 0.009283724, z: -0.0025362214}
     m_Extent: {x: 0.0015668286, y: 0.0017540967, z: 0.00214238}
   m_DirtyAABB: 0
---- !u!64 &5990225426463887907
-MeshCollider:
+--- !u!65 &1471504988549419909
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1945,10 +1942,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.31336573, y: 0.4592719, z: 0.5112995}
+  m_Center: {x: -0.013933905, y: 1.9483392, z: -0.016875193}
 --- !u!1 &5216449074306469949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1958,10 +1954,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4841189722237930119}
-  - component: {fileID: 6625847273467931614}
   - component: {fileID: -4425712168974363746}
   - component: {fileID: 2900236650744664002}
   - component: {fileID: -8067278381964415419}
+  - component: {fileID: -8392521621945688140}
   m_Layer: 0
   m_Name: Female Cook
   m_TagString: Object
@@ -1991,20 +1987,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &6625847273467931614
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5216449074306469949}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &-4425712168974363746
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2056,6 +2038,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &-8392521621945688140
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5216449074306469949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5223919886337415354
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,7 +2286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7088972482105761088}
   - component: {fileID: 2272342046340380379}
-  - component: {fileID: 514553865562858233}
+  - component: {fileID: 2225424465023892321}
   m_Layer: 0
   m_Name: Female.Cap.001
   m_TagString: Untagged
@@ -2419,8 +2414,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00013926276, y: 0.009283724, z: -0.0025362219}
     m_Extent: {x: 0.0015668281, y: 0.0017540967, z: 0.0021423795}
   m_DirtyAABB: 0
---- !u!64 &514553865562858233
-MeshCollider:
+--- !u!65 &2225424465023892321
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2429,10 +2424,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.3133656, y: 0.45927188, z: 0.5112994}
+  m_Center: {x: -0.013933905, y: 1.9483392, z: -0.016875222}
 --- !u!1 &6080187223412740671
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,7 +2663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7513796749194623353}
   - component: {fileID: 4427380150750701299}
-  - component: {fileID: 8460803619369725106}
+  - component: {fileID: 4287339989048997989}
   m_Layer: 0
   m_Name: Female.Apron
   m_TagString: Untagged
@@ -2797,8 +2791,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 3.4924597e-10, y: 0.0004629579, z: 0.00020185369}
     m_Extent: {x: 0.0021245573, y: 0.0056092683, z: 0.0026346517}
   m_DirtyAABB: 0
---- !u!64 &8460803619369725106
-MeshCollider:
+--- !u!65 &4287339989048997989
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2807,10 +2801,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.42491144, y: 1.2260273, z: 0.8274466}
+  m_Center: {x: -0.00000759447, y: 1.0247805, z: -0.008455008}
 --- !u!1 &7166517372628943054
 GameObject:
   m_ObjectHideFlags: 0

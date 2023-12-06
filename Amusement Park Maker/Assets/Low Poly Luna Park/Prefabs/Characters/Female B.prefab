@@ -937,10 +937,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3486556314799945363}
-  - component: {fileID: 5315517053561500729}
   - component: {fileID: 6433800592710128915}
   - component: {fileID: -2644593514414453043}
   - component: {fileID: 6900020008074974827}
+  - component: {fileID: -4587314777975303862}
   m_Layer: 0
   m_Name: Female B
   m_TagString: Object
@@ -967,20 +967,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &5315517053561500729
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4263058173423512617}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &6433800592710128915
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1032,6 +1018,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &-4587314777975303862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263058173423512617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4400542764323181785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,7 +1072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 739701706397177140}
   - component: {fileID: 6768048172556929170}
-  - component: {fileID: 5790450326293582489}
+  - component: {fileID: 5783619993333777822}
   m_Layer: 0
   m_Name: Female Skirt.002
   m_TagString: Untagged
@@ -1201,8 +1200,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000030398369, y: -0.023037195, z: 0.052070484}
     m_Extent: {x: 0.82959926, y: 0.9411702, z: 0.3984905}
   m_DirtyAABB: 0
---- !u!64 &5790450326293582489
-MeshCollider:
+--- !u!65 &5783619993333777822
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1211,10 +1210,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6591986, y: 2.0320566, z: 1.3048984}
+  m_Center: {x: -0.000004603433, y: 0.94920397, z: 0.0021314435}
 --- !u!1 &4591931501786644572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1671,7 +1669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455638527642852657}
   - component: {fileID: 309722012897157100}
-  - component: {fileID: 5441413663474768912}
+  - component: {fileID: 2121054257394725271}
   m_Layer: 0
   m_Name: Female Skirt.001
   m_TagString: Untagged
@@ -1799,8 +1797,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000030398369, y: -0.023037195, z: 0.052070484}
     m_Extent: {x: 0.82959926, y: 0.9411702, z: 0.3984905}
   m_DirtyAABB: 0
---- !u!64 &5441413663474768912
-MeshCollider:
+--- !u!65 &2121054257394725271
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1809,10 +1807,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6591986, y: 2.0320566, z: 1.3048984}
+  m_Center: {x: -0.000004603433, y: 0.94920397, z: 0.0021314435}
 --- !u!1 &6401840972011610498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,7 +1820,7 @@ GameObject:
   m_Component:
   - component: {fileID: 379231785301969672}
   - component: {fileID: 6532923069658880806}
-  - component: {fileID: 4492663243264642808}
+  - component: {fileID: 5187539944780205279}
   m_Layer: 0
   m_Name: Female Skirt
   m_TagString: Untagged
@@ -1951,8 +1948,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0000030398369, y: -0.023037195, z: 0.052070484}
     m_Extent: {x: 0.82959926, y: 0.9411702, z: 0.3984905}
   m_DirtyAABB: 0
---- !u!64 &4492663243264642808
-MeshCollider:
+--- !u!65 &5187539944780205279
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1961,10 +1958,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.6591986, y: 2.0320566, z: 1.3048984}
+  m_Center: {x: -0.000004603433, y: 0.94920397, z: 0.0021314435}
 --- !u!1 &6411752010997992641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,8 +2776,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c818a9150b4668b41a833b5a5674306c, type: 3}
   m_PrefabInstance: {fileID: 4856455899883583793}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &2645019758727428706
-MeshCollider:
+--- !u!65 &6085744025483816930
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2790,10 +2786,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2352791079069942648, guid: c818a9150b4668b41a833b5a5674306c, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.23877446, y: 0.23687023, z: 0.2516126}
+  m_Center: {x: 0.00052799284, y: 0.13636619, z: -0.0039669927}
 --- !u!1001 &7115538624107090978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2865,8 +2860,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1513abba7722ef04abba29edfde047ce, type: 3}
   m_PrefabInstance: {fileID: 7115538624107090978}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &9166245834225508165
-MeshCollider:
+--- !u!65 &6645413239400747789
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2875,7 +2870,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7978701383574863913, guid: 1513abba7722ef04abba29edfde047ce, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.23120254, y: 0.40146345, z: 0.24592523}
+  m_Center: {x: 0.00327319, y: 0.1276403, z: 0.0015607123}

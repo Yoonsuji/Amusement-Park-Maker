@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4978646348156556203}
   - component: {fileID: 8266480177625029646}
   - component: {fileID: 6150959027266595012}
-  - component: {fileID: 7854699060088318789}
   - component: {fileID: 676782087085092568}
   - component: {fileID: 4644926520711254983}
+  - component: {fileID: -3054835496655611087}
   m_Layer: 0
   m_Name: Ticket Office
   m_TagString: Object
@@ -86,20 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &7854699060088318789
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5646498900393756945}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6549444043585236691, guid: 0099112bdd6f25b4d883856fdf215ad0, type: 3}
 --- !u!208 &676782087085092568
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -132,3 +118,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &-3054835496655611087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5646498900393756945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.1676297, y: 3.0383055, z: 2.3614004}
+  m_Center: {x: 0, y: 1.5191528, z: 0.074903846}

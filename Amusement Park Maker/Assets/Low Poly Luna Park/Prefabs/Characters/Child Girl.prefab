@@ -519,7 +519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4790036617631601482}
   - component: {fileID: 5697420763058424559}
-  - component: {fileID: 6177066017941496879}
+  - component: {fileID: 1442847871565548310}
   m_Layer: 0
   m_Name: Child.girl.002
   m_TagString: Untagged
@@ -647,8 +647,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0074741244, y: 0.07448682, z: 0.018931516}
     m_Extent: {x: 0.53115594, y: 0.71283686, z: 0.24181622}
   m_DirtyAABB: 0
---- !u!64 &6177066017941496879
-MeshCollider:
+--- !u!65 &1442847871565548310
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -657,10 +657,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.1622903, y: 1.5847049, z: 0.6595932}
+  m_Center: {x: -0.006502577, y: 0.729467, z: -0.04507719}
 --- !u!1 &1793649166366366801
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,7 +670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2664893316669037457}
   - component: {fileID: 935053612289192759}
-  - component: {fileID: 3520251301396728871}
+  - component: {fileID: 5811890937520157310}
   m_Layer: 0
   m_Name: Child.girl.Hair.001
   m_TagString: Untagged
@@ -799,8 +798,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.016036097, y: 0.7014738, z: -0.115843445}
     m_Extent: {x: 0.11824866, y: 0.12604606, z: 0.21260372}
   m_DirtyAABB: 0
---- !u!64 &3520251301396728871
-MeshCollider:
+--- !u!65 &5811890937520157310
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -809,10 +808,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.25754288, y: 0.31546953, z: 0.477708}
+  m_Center: {x: -0.005949852, y: 1.3898425, z: -0.111270934}
 --- !u!1 &1794073532050595733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,7 +1435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3536456280740384696}
   - component: {fileID: 8022619310178670037}
-  - component: {fileID: 4811391971474973085}
+  - component: {fileID: 5735275599010168061}
   m_Layer: 0
   m_Name: Child.girl.001
   m_TagString: Untagged
@@ -1565,8 +1563,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0074741244, y: 0.07448682, z: 0.018931516}
     m_Extent: {x: 0.53115594, y: 0.71283686, z: 0.24181622}
   m_DirtyAABB: 0
---- !u!64 &4811391971474973085
-MeshCollider:
+--- !u!65 &5735275599010168061
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1575,10 +1573,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.1622903, y: 1.5847049, z: 0.6595932}
+  m_Center: {x: -0.006502577, y: 0.729467, z: -0.04507719}
 --- !u!1 &4782449871798798353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,7 +1652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4852522112801741326}
   - component: {fileID: 8536798847367295739}
-  - component: {fileID: 5529119984230899632}
+  - component: {fileID: 8080209183006392601}
   m_Layer: 0
   m_Name: Child.girl.Hair.002
   m_TagString: Untagged
@@ -1783,8 +1780,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.016036097, y: 0.7014738, z: -0.115843445}
     m_Extent: {x: 0.11824866, y: 0.12604606, z: 0.21260372}
   m_DirtyAABB: 0
---- !u!64 &5529119984230899632
-MeshCollider:
+--- !u!65 &8080209183006392601
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1793,10 +1790,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 0.25754288, y: 0.31546953, z: 0.477708}
+  m_Center: {x: -0.005949852, y: 1.3898425, z: -0.111270934}
 --- !u!1 &5275659098197542945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2347,10 +2343,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7088465560674194215}
-  - component: {fileID: 4553006662104371473}
   - component: {fileID: -3609040174217884467}
   - component: {fileID: -6474115723668490354}
   - component: {fileID: -2001618630456216694}
+  - component: {fileID: 5031699663767113661}
   m_Layer: 0
   m_Name: Child Girl
   m_TagString: Object
@@ -2378,20 +2374,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &4553006662104371473
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7571845595269368221}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!54 &-3609040174217884467
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2443,6 +2425,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &5031699663767113661
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7571845595269368221}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7672232359952476353
 GameObject:
   m_ObjectHideFlags: 0
